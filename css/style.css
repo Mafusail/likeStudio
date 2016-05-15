@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    text-align: center;
+    padding: 200px 0;
+}
+
+
+#contant{
+    width: 100%;
+    height: 500px;
+}
+
+.block_1_a{
+   background: gold;
+}
+
+
+.block_2_v{
+    background: pink;
+}
+
+.block_3_m{
+    background: papayawhip;
+}
+
+.block_4_m{
+    background: lightblue;
+}
+
+.block_5_v{
+    background: #a5e68c;
+}
+
+
+.block_6_a{
+    background: #e6ae88;
+}
+
+.block_7_a{
+    background: #e689cb;
+}
+
+.block_8_v{
+    background: #8e94e6;
+}
