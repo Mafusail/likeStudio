@@ -17,18 +17,20 @@ $(document).ready(function(){
                     "height":"50px"
                 });
 
-                $("header").css({"background-color": "#3C3C3C"});
+                $("header").css({"background-color": "#473c89"});
                 flag = true;
             }
         }else{
             if(flag){
                 $("#logo").css({
-                    "margin-top": "150px",
+                    "margin-top": "50%",
                     "width": "250px",
                     "height":"250px"
                 });
 
-                $("header").css({"background-color": "transparent"});
+                $("header").css({
+                    "background-color": "transparent"
+                });
                 flag = false;
             }
         }

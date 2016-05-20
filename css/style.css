@@ -29,19 +29,19 @@ nav{
     -webkit-transition: margin-left .5s;
 }
 
-ul{
+.menu_a{
     display: block;
     float: left;
     list-style: none;
 }
 
-ul li{
+.menu_a li{
     float: left;
     margin: 10px;
     padding: 2px;
 }
 
-ul a{
+.menu_a a{
     color: #F3F3F3;
     text-decoration: none;
 }
@@ -78,10 +78,6 @@ img#logo{
 
 
 
-
-
-
-
 p{
     text-align: center;
     padding: 200px 0;
@@ -93,9 +89,7 @@ p{
     height: 500px;
 }
 
-.block_1_a{
-   background: gold;
-}
+
 
 
 
