@@ -155,7 +155,7 @@ img#logo{
     margin: 160px 1.6666% 0 1.66%;
     color: white;
     font-family: roboto;
-    font-size: 24px;
+    font-size: 18px;
     /*background: cadetblue;*/
    }
 
@@ -184,7 +184,8 @@ img#logo{
 
     .two {
         text-align: justify;
-        margin: 185px 180px;
+        margin: 185px 0px;
+        float: right;
     }
 
     .logo_footer {
@@ -198,3 +199,4 @@ img#logo{
         left: 30px;
         text-align: justify;
     }
+
