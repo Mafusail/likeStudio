@@ -180,6 +180,7 @@ img#logo{
 
     iframe {
         -webkit-filter: grayscale(100%) contrast(120%);
+        margin-left: -50px;
     }
 
     .two {
