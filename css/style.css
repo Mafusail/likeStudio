@@ -373,7 +373,7 @@ footer{
 
 .col-1 {
     display: inline-block;
-    width: 30%;
+    width: 40%;
     height: 200px;
     float: left;
     margin: 160px 1.6666% 0 1.66%;
@@ -384,13 +384,13 @@ footer{
    }
 
    .col-2 {
-    width: 30%;
+    width: 20%;
     height: 400px;
     float: left;
     margin: 5px 1.6666%;
     color: white;
     font-family: roboto;
-    font-size: 18px;
+    font-size: 14px;
     /*background: cadetblue;*/
    }
 
@@ -417,10 +417,11 @@ footer{
         display: inline-block;
         width: 170px;
         float: left;
+        margin-left: 50px;
     }
     .right_footer {
         position: relative;
-        bottom: -16px;
+        bottom: -25px;
         left: 30px;
         text-align: justify;
     }
