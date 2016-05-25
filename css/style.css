@@ -373,57 +373,56 @@ footer{
 
 .col-1 {
     display: inline-block;
-    width: 40%;
+    width: 45%;
     height: 200px;
     float: left;
-    margin: 160px 1.6666% 0 1.66%;
+    margin-top: 100px;
+    margin-left: 50px;
     color: white;
-    font-family: roboto;
-    font-size: 18px;
+    font-size: 21px;
     /*background: cadetblue;*/
    }
 
-   .col-2 {
-    width: 20%;
+    .col-3 {
+   	width: 45%;
     height: 400px;
-    float: left;
-    margin: 5px 1.6666%;
-    color: white;
-    font-family: roboto;
-    font-size: 14px;
-    /*background: cadetblue;*/
-   }
-
-   .col-3 {
-    width: 30%;
-    height: 400px;
-    float: left;
+    float: right;
     margin: 50px 1.6666%;
+    color: white;
     /*background: cadetblue;*/ 
    }
 
     iframe {
+    	display: inline-block;
+    	width: 48%;
+    	height: 300px;
         -webkit-filter: grayscale(100%) contrast(120%);
-        margin-left: -50px;
+        margin-top: 50px;
     }
 
     .two {
-        text-align: justify;
-        margin: 185px 0px;
+        display: inline-block;
+        width: 45%;
+        margin-top: 115px;
+        padding: 15px;
         float: right;
+        font-size: 18px;
     }
 
     .logo_footer {
         display: inline-block;
-        width: 170px;
+        width: 300px;
         float: left;
         margin-left: 50px;
     }
     .right_footer {
+        float: left;
+        width: 500px;
         position: relative;
-        bottom: -25px;
+        bottom: -90px;
         left: 30px;
         text-align: justify;
+
     }
 
 
