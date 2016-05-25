@@ -411,8 +411,9 @@ footer{
 
     .logo_footer {
         display: inline-block;
-        width: 300px;
+        width: 150px;
         float: left;
+        margin-top: 85px;
         margin-left: 50px;
     }
     .right_footer {
@@ -424,7 +425,6 @@ footer{
         text-align: justify;
 
     }
-
 
 
 
