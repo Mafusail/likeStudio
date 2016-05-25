@@ -127,8 +127,23 @@ img#logo{
 }
 
 
-.block_6_a{
-    background: #e6ae88;
+/*slader jobs Riss*/
+.blur {
+   filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.blur:hover {
+    filter: none; 
+  -webkit-filter: none; 
+  -moz-filter: none;
+  -ms-filter: none;
+  -o-filter: none;
+  filter: none;
 }
 
 
