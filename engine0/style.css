@@ -242,7 +242,7 @@
 	content: '';
 	display: block;
 	height:100%;
-	background: #aa00ff;
+	background: #F3F3F3;
 
   	-webkit-transform: rotateX(-90deg) translateZ(-8px) translateY(8px);
   	transform: rotateX(-90deg) translateZ(-8px) translateY(8px);
@@ -253,7 +253,7 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-  	background: #1A2223;
+  	background: #473C89;
   	-webkit-transform: rotateX(0deg);
   	transform: rotateX(0deg);
 }
@@ -272,6 +272,7 @@
 #wowslider-container0 a.ws_prev,
 #wowslider-container0 .ws_playpause {
 	position:absolute;
+	display: none;
 	font: 2em "ws-ctrl-convex";
 	width: 2.5em;
 	height: 2.5em;
@@ -284,6 +285,19 @@
 	-webkit-perspective: 20em;
 	perspective: 20em;
 }
+
+* html #wowslider-container0 a.ws_next,
+* html #wowslider-container0 a.ws_prev,
+* html #wowslider-container0 .ws_playpause {
+	display:block;
+}
+
+#wowslider-container0:hover a.ws_next,
+#wowslider-container0:hover a.ws_prev,
+#wowslider-container0:hover .ws_playpause {
+	display:block;
+}
+
 #wowslider-container0 a.ws_next {
 	right: 0;
 }
@@ -318,8 +332,8 @@
 	text-align: center;
 	line-height: 2.5em;
 	height:100%;
-	background: #aa00ff;
-	color: #1A2223;
+	background: #F3F3F3;
+	color: #473C89;
 
   	-webkit-transform: rotateX(-90deg) translateZ(-1.25em) translateY(1.25em);
   	transform: rotateX(-90deg) translateZ(-1.25em) translateY(1.25em);
@@ -351,8 +365,8 @@
 	height: 100%;
   	-webkit-transform: rotateX(0deg);
   	transform: rotateX(0deg);
-  	background: #1A2223;
-	color: #aa00ff;
+  	background: #473C89;
+	color: #F3F3F3;
 }
 
 #wowslider-container0 a.ws_next:hover > span,
@@ -383,8 +397,8 @@
 #wowslider-container0 .ws-title div,#wowslider-container0 .ws-title span{
 	display:inline-block;
 	padding: 0.1em 4em;
-	background-color: #1A2223;
-	color: #aa00ff;
+	background-color: #473C89;
+	color: #F3F3F3;
 }
 #wowslider-container0 .ws-title div{
 	display:block;
