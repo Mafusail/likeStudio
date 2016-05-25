@@ -27,12 +27,12 @@
                 <a href='#box3'><li>EXPERTIZE</li></a>
             </ul>
 
-            <a href='#box1'><img id='logo' src='img/logo%20(1).png'></a>
+            <a href='#box1'><img id='logo' src='img/logo_white_transperens%20(1).png'></a>
 
             <ul class="menu_a">
                 <a href='#box4'><li>TEEMS</li></a>
                 <a href='#box5'><li>WORKS</li></a>
-                <a href='#box6'><li>ORDER</li></a>
+                <a href='#'><li><ORDER</li></a>
                 <a href='#box7'><li>CONTACT</li></a>
             </ul>
         </nav>
@@ -43,6 +43,11 @@
         <video loop="loop" width="100%"  src="video/1.mp4" autoplay muted>
             <!--<source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>-->
         </video>
+
+
+     <!--Кнопка заказа-->
+            <button id="button_a"><strong>ORDER</strong></button>
+
     </div>
 
 
@@ -98,25 +103,104 @@
     </div>
 
     <div class="block_4_m" id="box3">
-        <p>Макс,  Expertise Навыки что умеем</p>
+        <p class="work">Макс,  Expertise Навыки что умеем</p>
     </div>
 
 
     <div class="block_5_v" id="box4">
-        <p>Виталик "О нас". Выслать резюме, ревью, характеристика;     + ссылки на свои работы для портфолио Сане</p>
+        <p class="work">Виталик "О нас". Выслать резюме, ревью, характеристика;     + ссылки на свои работы для портфолио Сане</p>
     </div>
 
 
     <div class="block_6_a" id="box5">
-        <p>Саня Our Works slider</p>
+        <p class="work">Саня Our Works slider</p>
     </div>
 
-    <div class="block_7_a" id="box6">
-        <p>Саня формы выездные вылетающие</p>
+
+
+
+
+    <!--Заказ на сайт-->
+
+    <div id="block_7_a">
+        <img src='img/logo%20(1).png'>
+        <div class="form_contact">
+            <!--<form id="loginform" action="php/mail.php" method="post" >-->
+            <form id="loginform" action="" method="post" >
+                <p>
+                    <input type="text" name="imya" placeholder="Имя:">
+                </p>
+                <p>
+                    <input type="text" name="phone" placeholder="Номер телефон:">
+                </p>
+                <p>
+                    <input type="text" name="email" placeholder="Email:">
+                </p>
+                <p>
+                    <input class="koment" type="text" name="message" placeholder="Комментарии:">
+
+                </p>
+                <p>
+                    <input class="form_bottom" type="submit" value="Отправить заказ">
+                </p>
+            </form>
+        </div>
     </div>
+
+
+
+
+
+
+    <div id="hover_a"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     <div class="block_8_v" id="box7">
-        <p>Виталик  футер</p>
+        <div class="wrap">
+                <div class="col-1">
+                    <img class="logo_footer" src="img/logo2.png" alt="logo footer">
+                    <div class="right_footer">Like studio - Это молодая комманда креативных и талантливых людей, которых обьединяет любовь к созданию сайта. Мы всегда услышим ваши пожелания и предложим вам самый оптимальный вариант решения вашего проекта</div>
+                </div>
+
+                <div class="col-2">
+                    <div class="two">
+                        <h3> Мы находимся по адресу:</h3>
+                        <p> г. Киев, ул. Красноармейская 13, офис 778</p>
+                        <h3>Наши контакты:</h3>
+                        <p>+30 093 032 21 75</p>
+                    </div>
+                </div>
+
+                <div class="col-3">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2541.044139207847!2d30.517298415851126!3d50.44027849597862!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ceff47607dc9%3A0xea53e60012f37aa!2z0LLRg9C7LiDQktC10LvQuNC60LAg0JLQsNGB0LjQu9GM0LrRltCy0YHRjNC60LAsIDEzLCDQmtC40ZfQsiwg0KPQutGA0LDRl9C90LA!5e0!3m2!1suk!2sru!4v1464092692372" width="500" height="400" frameborder="0" style="border-radius:50px" allowfullscreen>
+                    </iframe>
+                </div>
+    	</div>
     </div>
 
 </div>
@@ -126,7 +210,9 @@
 
 </footer>
 
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validation/jquery.validate.min.js"></script>
     <script src="js/mafusail.js"></script>
     <script src="js/max.js"></script>
     <script src="js/riss.js"></script>

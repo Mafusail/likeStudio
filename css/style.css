@@ -15,6 +15,7 @@ section#box1{
 
 header{
     position: fixed;
+    z-index: 100;
     width: 100%;
     height: 70px;
     background-color: transparent;
@@ -51,7 +52,7 @@ img#logo{
     display: block;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 150px;
+    margin-top: 50%;
     -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
 }
 
@@ -99,7 +100,7 @@ img#logo{
 /*story and Riss*/
 
 
-p{
+.work{
     text-align: center;
     padding: 200px 0;
 }
@@ -130,10 +131,307 @@ p{
     background: #e6ae88;
 }
 
-.block_7_a{
-    background: #e689cb;
+
+
+
+
+
+
+
+
+
+/*Alex заказ*/
+
+
+
+#block_7_a{
+    display: none;
+    width: 50%;
+    height: 700px;
+    background: rgba(225, 225, 225, 0.9);
+    position: fixed;
+    z-index: 9999;
+    top: 0%;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: 10%;
+    border: 2px solid #aa00ff;
+    text-align: center;
 }
 
-.block_8_v{
-    background: #8e94e6;
+#hover_a{
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: rgba(9, 5, 59, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9998;
 }
+
+
+#block_7_a img{
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
+
+/*Кнопка заказа главная*/
+
+
+
+#button_a{
+    cursor: pointer;
+    font-size: 18px;
+    position: fixed;
+    right: -42px;
+    top: 30%;
+    z-index: 9999;
+    padding: 10px 30px;
+    background-color: rgba(71, 60, 137, 1);
+    border: 0px;
+    color: #ffffff;
+    -moz-transform: rotate(-90deg); /* Для Firefox */
+    -ms-transform: rotate(-90deg); /* Для IE */
+    -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-90deg); /* Для Opera */
+    transform: rotate(-90deg);
+    transition: all 1s;
+}
+
+
+
+#button_a:hover{
+    -moz-transform: rotate(0deg); /* Для Firefox */
+    -ms-transform: rotate(0deg); /* Для IE */
+    -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(0deg); /* Для Opera */
+    transform: rotate(0deg);
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #aa00ff;
+    border: 1px solid #aa00ff;
+}
+
+/*Формы для заказа*/
+
+
+
+#block_7_a input{
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    height: 40px;
+    width: 50%;
+    margin: 0 0 20px 0;
+    border: 1px solid #aa00ff;
+    transition: all 0.5s;
+}
+
+#block_7_a input:hover{
+    background-color: rgba(71, 60, 137, 0.1);
+    font-size: 22px;
+    width: 55%;
+    border: 2px solid #aa00ff;
+}
+
+
+
+
+
+
+#block_7_a .form_bottom{
+
+    background-color: rgba(71, 60, 137, 1);
+    border: 0px;
+    color: #ffffff;
+    width: 60%;
+    transition: all 0.5s;
+}
+
+
+
+#block_7_a .form_bottom:hover{
+    background-color: #ffffff;
+    border: 1px solid #aa00ff;
+    color: #aa00ff;
+    }
+
+
+
+
+#block_7_a .koment{
+    width: 90%;
+    height: 80px;
+    text-align: left;
+    padding-left: 5%;
+    padding-top: 5px;
+}
+
+#block_7_a .koment:hover{
+    width: 90%;
+
+}
+
+
+
+
+
+#block_7_a label.error{
+    position: absolute;
+    bottom: 3%;
+    right: 30%;
+    z-index: 99999;
+    background: #373737;
+    color: #ffffff;
+    width: 40%;
+    padding: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    width: 80%;
+    position: relative;
+    margin: 100px auto 50px auto;
+    height: 30px;
+    font-weight: bold;
+    color: #6d6e71;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Riss footer*/
+
+.wrap{
+    background: url(img/footer.jpg);
+    display: block;
+    width: 100%;
+    height: 500px;
+    clear: both;
+    float: left;
+}
+
+.col-1 {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    float: left;
+    margin: 160px 1.6666% 0 1.66%;
+    color: white;
+    font-family: roboto;
+    font-size: 18px;
+    /*background: cadetblue;*/
+   }
+
+   .col-2 {
+    width: 20%;
+    height: 400px;
+    float: left;
+    margin: 5px 1.6666%;
+    color: white;
+    font-family: roboto;
+    font-size: 14px;
+    /*background: cadetblue;*/
+   }
+
+   .col-3 {
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin: 50px 1.6666%;
+    /*background: cadetblue;*/ 
+   }
+
+    iframe {
+        -webkit-filter: grayscale(100%) contrast(120%);
+        margin-left: -50px;
+    }
+
+    .two {
+        text-align: justify;
+        margin: 185px 0px;
+        float: right;
+    }
+
+    .logo_footer {
+        display: inline-block;
+        width: 170px;
+        float: left;
+        margin-left: 50px;
+    }
+    .right_footer {
+        position: relative;
+        bottom: -25px;
+        left: 30px;
+        text-align: justify;
+    }
+
+
+
+
+
+
+
+
+
+
