@@ -373,18 +373,18 @@ footer{
 
 .col-1 {
     display: inline-block;
-    width: 45%;
+    width: 50%;
     height: 200px;
     float: left;
     margin-top: 100px;
     margin-left: 50px;
     color: white;
-    font-size: 21px;
+    font-size: 18px;
     /*background: cadetblue;*/
    }
 
     .col-3 {
-   	width: 45%;
+   	width: 40%;
     height: 400px;
     float: right;
     margin: 50px 1.6666%;
@@ -403,10 +403,10 @@ footer{
     .two {
         display: inline-block;
         width: 45%;
-        margin-top: 115px;
+        margin-top: 120px;
         padding: 15px;
         float: right;
-        font-size: 18px;
+        font-size: 14px;
     }
 
     .logo_footer {
@@ -419,7 +419,7 @@ footer{
         float: left;
         width: 500px;
         position: relative;
-        bottom: -90px;
+        bottom: -100px;
         left: 30px;
         text-align: justify;
 
