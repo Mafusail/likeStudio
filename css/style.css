@@ -122,9 +122,430 @@ img#logo{
     background: lightblue;
 }
 
-.block_5_v{
-    background: #a5e68c;
+
+
+
+
+
+
+
+
+/*Команда Адекс*/
+
+.block_5_a{
+    width: 100%;
+    padding: 1% 0;
+    background: #473c89;
+    margin: 0 auto;
+    font: 1em/1.4em sans-serif;
+    overflow: hidden;
 }
+
+
+
+
+.fwrap_a{
+    margin: 0 auto;
+    width: 80%;
+    height: 1000px;
+    /*background: #343468;*/
+    display: block;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+
+
+.fwrap_a h4{
+    text-align: center;
+    font-size: 3em;
+    padding: 20px 0 30px 0;
+    color: #ffffff;
+    margin: 1% 0 2% 0;
+}
+
+
+
+
+.cards_a{
+    width: 33%;
+    height: 80%;
+    /*margin: 10px;*/
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.cards_a::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("img/Sania12.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block; /*Чтобы виден стал*/
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.cards_a:hover::after{
+    background: url("img/Sania22.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.cards_m{
+    width: 33%;
+    height: 80%;
+    /*margin: 10px;*/
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.cards_m::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("img/max1.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block; /*Чтобы виден стал*/
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.cards_m:hover::after{
+    background: url("img/max2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.cards_v{
+    width: 33%;
+    height: 80%;
+    /*margin: 10px;*/
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.cards_v::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: url("img/Riss1.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    display: block; /*Чтобы виден стал*/
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.cards_v:hover::after{
+    background: url("img/Riss2.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+
+.fwrap_a span{
+    position: absolute;
+    font-size: 30px;
+    font-weight: bold;
+    bottom: 10%;
+    left: 40%;
+    color: #ffffff;
+    background: transparent;
+    padding: 10px 30px;
+    border: 5px solid darkviolet;
+    cursor: pointer;
+}
+
+
+
+.clearfix{
+    clear: both;
+}
+
+
+
+
+/*Внутри всплывающего окна для Алекса*/
+
+#block_inf_a{
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    box-shadow: 5px 5px 70px #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_a .cirle{
+    background: url("img/Sania22.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 200px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 50%; /*Скругление*/
+    position: relative;
+}
+
+#block_inf_a .cirle img{
+    position: relative;
+    z-index: -1;
+    width: 600px;
+}
+
+
+#block_inf_a .cirle::after{
+    content: "";
+    width: 502px;
+    height: 502px;
+    background: url("img/Sania12.jpg");
+    background-position: center;
+    background-size: cover;
+    display: block; /*Чтобы виден стал*/
+    border-radius: 50%; /*Скругление*/
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    transition: 0.5s width, 0.5s height, 0.5s top, 0.5s left;
+
+}
+
+#block_inf_a .cirle:hover::after{
+    width: 0;
+    height: 0;
+    left: 250px;
+    top: 250px;
+    box-shadow: 0 0 20px 20px #3d3d3d inset;
+}
+
+
+#block_inf_a .text_a{
+    color: #555;
+    font-size: 1.85em;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#block_inf_a .text_a p{
+    margin: 15px;
+}
+
+#block_inf_a .text_a h3{
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+/*Внутри всплывающего окна для Макса*/
+
+#block_inf_m{
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    box-shadow: 5px 5px 70px #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_m .cirle{
+    background: url("img/max2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 200px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 50%; /*Скругление*/
+    position: relative;
+}
+
+#block_inf_m .cirle img{
+    position: relative;
+    z-index: -1;
+    width: 600px;
+}
+
+
+#block_inf_m .cirle::after{
+    content: "";
+    width: 502px;
+    height: 502px;
+    background: url("img/max1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: block; /*Чтобы виден стал*/
+    border-radius: 50%; /*Скругление*/
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    transition: 0.5s width, 0.5s height, 0.5s top, 0.5s left;
+
+}
+
+#block_inf_m .cirle:hover::after{
+    width: 0;
+    height: 0;
+    left: 250px;
+    top: 250px;
+    box-shadow: 0 0 20px 20px #3d3d3d inset;
+}
+
+
+#block_inf_m .text_a{
+    color: #555;
+    font-size: 1.85em;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#block_inf_m .text_a p{
+    margin: 15px;
+}
+
+#block_inf_m .text_a h3{
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+/*Внутри всплывающего окна для Виталика*/
+
+#block_inf_v{
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+    border: 3px solid #ddd;
+    box-shadow: 5px 5px 70px #fff;
+    overflow: hidden;
+    position: fixed;
+    top: 15%;
+    left: 20%;
+    display: none;
+    background: #ffffff;
+    z-index: 9999;
+}
+
+#block_inf_v .cirle{
+    background: url("img/Riss2.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    color: #ffffff;
+    line-height: 200px;
+    text-align: center;
+    font-size: 1.1em;
+    border-radius: 50%; /*Скругление*/
+    position: relative;
+}
+
+#block_inf_v .cirle img{
+    position: relative;
+    z-index: -1;
+    width: 600px;
+}
+
+
+#block_inf_v .cirle::after{
+    content: "";
+    width: 502px;
+    height: 502px;
+    background: url("img/Riss1.jpg");
+    background-position: center;
+    background-size: cover;
+    display: block; /*Чтобы виден стал*/
+    border-radius: 50%; /*Скругление*/
+    position: absolute;
+    top: -1px;
+    left: -1px;
+    z-index: 1;
+    transition: 0.5s width, 0.5s height, 0.5s top, 0.5s left;
+
+}
+
+#block_inf_v .cirle:hover::after{
+    width: 0;
+    height: 0;
+    left: 250px;
+    top: 250px;
+    box-shadow: 0 0 20px 20px #3d3d3d inset;
+}
+
+
+#block_inf_v .text_a{
+    color: #555;
+    font-size: 1.85em;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#block_inf_v .text_a p{
+    margin: 15px;
+}
+
+#block_inf_v .text_a h3{
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*slader jobs Riss*/

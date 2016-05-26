@@ -74,6 +74,50 @@ $(document).ready(function(){
     });
 
 
+    // "Команда" всплывающая информация Алекса
+
+    $('#inf_a').click(function () {
+        $("#block_inf_a").show(500);
+        $("#hover_a").show();
+    });
+    $('#hover_a').click(function () {
+        $("#block_inf_a").hide();
+        $("#hover_a").hide();
+    });
+
+    // "Команда" всплывающая информация Макса
+
+    $('#inf_m').click(function () {
+        $("#block_inf_m").show(500);
+        $("#hover_a").show();
+    });
+    $('#hover_a').click(function () {
+        $("#block_inf_m").hide();
+        $("#hover_a").hide();
+    });
+
+
+    // "Команда" всплывающая информация Виталика
+
+    $('#inf_v').click(function () {
+        $("#block_inf_v").show(500);
+        $("#hover_a").show();
+    });
+    $('#hover_a').click(function () {
+        $("#block_inf_v").hide();
+        $("#hover_a").hide();
+    });
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
     /*validate form*/
 
     $("#loginform").validate({
