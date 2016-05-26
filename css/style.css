@@ -189,7 +189,6 @@ img#logo{
     font-family: Arial, sans-serif;
     margin: 0 auto 3%;
     background: #ee6123;
-    max-width: 100%;
     color: #fff;
     text-align: center;
     font-size: 1.28rem;
@@ -844,23 +843,7 @@ img#logo{
 }
 
 @media screen and (max-width: 900px) {
-    .rubrika {
-        width: 48%;
-        margin-bottom: 6%;
-    }
-    #rubrFest,
-    #rubrForum,
-    #rubrDecor {
-        float: left;
-    }
-    #rubrRadio,
-    #rubrApparel,
-    #rubrHolst {
-        float: right;
-    }
-    .main {
-        margin-bottom: 2%;
-    }
+
     h4 {
         font-size: 2em;
     }
@@ -874,7 +857,7 @@ img#logo{
     .rubrika {
         width: 100%;
         float: none;
-        margin: 0 auto 11%;
+        margin: 0 auto 2%;
     }
 }
 
