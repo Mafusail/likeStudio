@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 
     $('.jquery').mouseenter(function(){
-        $(this).attr('src', 'img/2jqueryajaxx_300x300.jpg');
+        $(this).attr('src', 'img/2jqueryajaxx.jpg');
     });
 
     $('.jquery').mouseleave(function(){
@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
     $('.ruby').mouseenter(function(){
-        $(this).attr('src', 'img/5haml-sass_300x300.jpg');
+        $(this).attr('src', 'img/4-ruby-gems.jpg');
     });
 
     $('.ruby').mouseleave(function(){
@@ -40,11 +40,11 @@ $(document).ready(function(){
 
 
     $('.hamlsass').mouseenter(function(){
-        $(this).attr('src', 'img/1htmlcss_300x300.jpg');
+        $(this).attr('src', 'img/5haml-sass_300x300.jpg');
     });
 
     $('.hamlsass').mouseleave(function(){
-        $(this).attr('src', 'img/5haml-sass_300x300.jpg');
+        $(this).attr('src', 'img/5-hamlsass.jpg');
     });
 
 
@@ -60,7 +60,7 @@ $(document).ready(function(){
 
 
     $('.frameworks').mouseenter(function(){
-        $(this).attr('src', 'img/1htmlcss_300x300.jpg');
+        $(this).attr('src', 'img/7-frameworks-1.jpg');
     });
 
     $('.frameworks').mouseleave(function(){
@@ -70,11 +70,11 @@ $(document).ready(function(){
 
 
     $('.wordpress').mouseenter(function(){
-        $(this).attr('src', 'img/1htmlcss_300x300.jpg');
+        $(this).attr('src', 'img/8wordpress_300x300.jpg');
     });
 
     $('.wordpress').mouseleave(function(){
-        $(this).attr('src', 'img/8wordpress_300x300.jpg');
+        $(this).attr('src', 'img/8wp-denwer-2.jpg');
     });
 
 
