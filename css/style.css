@@ -4,7 +4,9 @@
     font-family: helvetica, Roboto, "ws-ctrl-convex", sans-serif;
 }
 
-
+html {
+    font-size:100%;
+}
 section#box1{
     width: 100%;
     background-image: url(../pictures/bg.jpg);
@@ -133,13 +135,13 @@ img#logo{
 
 #box3 header {
     position: absolute;
-    line-height: 4em;
+    margin: 1% 0 2% 0;
 }
 
 
-#box3 header h4 {
+header h4 {
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     color: #ffffff;
 }
 
@@ -147,7 +149,7 @@ img#logo{
     height: 65%;
     max-width: 100%;
     margin: 5% auto .5%;
-    background: darkgrey;
+    background: #473c89;
     box-sizing: content-box;
     padding: 1% auto;
     text-align: center;
@@ -183,6 +185,7 @@ img#logo{
     width: 100%;
     max-height: 100%;
     margin: 0;
+    display: block;
 }
 
 .button {
@@ -273,7 +276,7 @@ img#logo{
 
 .fwrap_a h4{
     text-align: center;
-    font-size: 3em;
+    font-size: 3rem;
     padding: 20px 0 30px 0;
     color: #ffffff;
     margin: 1% 0 2% 0;
@@ -842,26 +845,58 @@ img#logo{
     }
 }
 
-@media screen and (max-width: 900px) {
 
-    h4 {
-        font-size: 2em;
+@media screen and (max-width: 1200px) {
+
+    .rubrika {
+        margin: 5% 1% 2%;
+    }
+    .wrap_m {
+        margin: 5% auto;
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 900px) {
+
+    header h4, .fwrap_a h4 {
+        font-size: 2.7rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
+    header h4, .fwrap_a h4 {
+        font-size: 2.5rem;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    header h4, .fwrap_a h4 {
+        font-size: 2.3rem;
+    }
+}
+
+@media screen and (max-width: 630px) {
     .black-cover {
         padding: 15%;
         box-sizing: border-box;
     }
     .rubrika {
-        width: 100%;
-        float: none;
-        margin: 0 auto 2%;
+        max-width: 70%;
+        margin: 4% auto;
+    }
+    header h4, .fwrap_a h4 {
+        font-size: 1.7rem;
+        line-height: 2rem;
     }
 }
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 500px) {
+    .rubrika {
+        max-width: 90%;
+        margin: 5% auto;
+    }
 }
 
 
