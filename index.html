@@ -40,6 +40,7 @@
             </ul>
 
             <a href='#box1'><img id='logo' src='img/logo_white_transperens%20(1).png'></a>
+            <a href='#box1'><img id='logo1' src='img/logo_white_transperens%20(1).png'></a>
 
             <ul class="menu_a">
                 <a href='#box4'><li>TEEMS</li></a>
@@ -51,13 +52,9 @@
 
 
     <div class="block_1_a" id="box1">
-        <video loop="loop" width="100%"  src="video/1.mp4" autoplay muted>
+        <video id="vidio_hends" loop="loop" width="100%"  src="video/1.mp4" autoplay muted>
             <!--<source src="video/video.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>-->
         </video>
-
-
-
-
     </div>
 
 
@@ -325,22 +322,22 @@
     <div id="block_7_a">
         <img src='img/logo%20(1).png'>
         <div class="form_contact">
-            <form id="loginform" action="php/mail.php" method="post" >
+            <form id="loginform"   >
                 <p>
-                    <input type="text" name="imya" placeholder="Имя:">
+                    <input type="text" name="imya" placeholder="Имя:" value="primer imeni">
                 </p>
                 <p>
-                    <input type="text" name="phone" placeholder="Номер телефон:">
+                    <input type="text" name="phone" placeholder="Номер телефон: (код оператора)-(xxx)-(xxxx)" >
                 </p>
                 <p>
-                    <input type="text" name="email" placeholder="Email:">
+                    <input type="text" name="email" placeholder="Email:" value="prima@mail.ru">
                 </p>
                 <p>
-                    <input class="koment" type="text" name="message" placeholder="Комментарии:">
+                    <textarea cols="40" rows="6" name="message" placeholder="Комментарии:"></textarea>
+                </p>
 
-                </p>
                 <p>
-                    <input class="form_bottom" type="submit" value="Отправить заказ">
+                    <input class="form_bottom" type="button" value="Отправить заказ">
                 </p>
             </form>
         </div>
@@ -378,8 +375,6 @@
     	</div>
     </div>
 
-</div>
-
 
 <footer>
 
@@ -409,6 +404,36 @@
                 pager: false
             });
         });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.form_bottom').on('click', posol);
+        });
+
+        function posol() {
+            console.log('dddd');
+            $.get(
+                    'php/mail.php',
+                    {
+                        "imya": $('#loginform input[name=imya]').val(),
+                        "phone": $('#loginform input[name=phone]').val(),
+                        "email": $('#loginform input[name=email]').val(),
+                        "komenl": $('#loginform input[name=komen]').val(),
+                    },
+                    ifSuccess
+
+            )
+        }
+
+        function ifSuccess(data) {
+            console.log(data);
+            var a=data.trim();
+
+            if (a=='1') {
+                $('#block_7_a').hide(1000);
+                $('#hover_a').hide();
+            }
+        }
     </script>
 
 

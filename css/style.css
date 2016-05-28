@@ -7,12 +7,8 @@
 html {
     font-size:100%;
 }
-section#box1{
+.block_1_a#vidio_hends{
     width: 100%;
-    background-image: url(../pictures/bg.jpg);
-    background-attachment: contain;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 header{
@@ -54,9 +50,62 @@ img#logo{
     display: block;
     margin-left: 30px;
     margin-right: 30px;
-    margin-top: 50%;
+    width: 450px;
+    height:450px;
+    margin-top: 250px;
     -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
 }
+img#logo1{
+    display: none;
+    position: fixed;
+    width: 50px;
+    height:50px;
+    margin-top: -5px;
+    left: 20px;
+}
+
+
+
+@media screen and (max-width: 1120px) {
+    #logo {
+        display: none!important;
+    }
+    img#logo1{
+        display: block;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .menu_a {
+        display: none!important;
+    }
+
+    img#logo1{
+        width: 25px;
+        height:25px;
+        margin-top: -10px;
+    }
+    header{
+        height: 35px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*story Riss*/
 
@@ -382,6 +431,7 @@ header h4 {
 
 
 .fwrap_a span{
+    display: none;
     position: absolute;
     font-size: 30px;
     font-weight: bold;
@@ -390,9 +440,34 @@ header h4 {
     color: #ffffff;
     background: transparent;
     padding: 10px 30px;
-    border: 5px solid darkviolet;
+    border: 5px solid #ee6123;
     cursor: pointer;
+    transition: all 0.5s;
 }
+
+
+.fwrap_a span:hover{
+    color: #473c89;
+    background: #ffffff;
+}
+.cards_a:hover span{
+    display: block;
+}
+
+
+.cards_m:hover span{
+    display: block;
+}
+
+.cards_v:hover span{
+    display: block;
+}
+
+
+
+
+
+
 
 
 
@@ -410,10 +485,10 @@ header h4 {
     margin: 20px auto;
     padding: 20px;
     border: 3px solid #ddd;
-    box-shadow: 5px 5px 70px #fff;
     overflow: hidden;
     position: fixed;
     top: 15%;
+    left: 20%;
     left: 20%;
     display: none;
     background: #ffffff;
@@ -492,7 +567,6 @@ header h4 {
     margin: 20px auto;
     padding: 20px;
     border: 3px solid #ddd;
-    box-shadow: 5px 5px 70px #fff;
     overflow: hidden;
     position: fixed;
     top: 15%;
@@ -574,7 +648,6 @@ header h4 {
     margin: 20px auto;
     padding: 20px;
     border: 3px solid #ddd;
-    box-shadow: 5px 5px 70px #fff;
     overflow: hidden;
     position: fixed;
     top: 15%;
@@ -699,15 +772,15 @@ header h4 {
 #block_7_a{
     display: none;
     width: 50%;
-    height: 700px;
-    background: rgba(225, 225, 225, 0.9);
+    height: 750px;
+    background: #ffffff;
     position: fixed;
     z-index: 9999;
     top: 0%;
     left: 50%;
     margin-left: -25%;
     margin-top: 10%;
-    border: 2px solid #aa00ff;
+    border: 3px solid #ddd;
     text-align: center;
 }
 
@@ -743,7 +816,7 @@ header h4 {
     top: 30%;
     z-index: 9999;
     padding: 10px 30px;
-    background-color: rgba(71, 60, 137, 1);
+    background-color: #ee6123;
     border: 0px;
     color: #ffffff;
     -moz-transform: rotate(-90deg); /* Для Firefox */
@@ -763,9 +836,9 @@ header h4 {
     -o-transform: rotate(0deg); /* Для Opera */
     transform: rotate(0deg);
     right: 0;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #aa00ff;
-    border: 1px solid #aa00ff;
+    background-color: #ffffff;
+    color: #473c89;
+    border: 1px solid #473c89;
 }
 
 /*Формы для заказа*/
@@ -779,7 +852,7 @@ header h4 {
     height: 40px;
     width: 50%;
     margin: 0 0 20px 0;
-    border: 1px solid #aa00ff;
+    border: 3px solid #ddd;
     transition: all 0.5s;
 }
 
@@ -787,20 +860,30 @@ header h4 {
     background-color: rgba(71, 60, 137, 0.1);
     font-size: 22px;
     width: 55%;
-    border: 2px solid #aa00ff;
+    border: 3px solid #ddd;
+}
+
+textarea{
+
+    text-align: center;
+    font-family: roboto, sans-serif;
+    font-size: 20px;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 0 20px 0;
+    border: 3px solid #ddd;
+    transition: all 0.5s;
 }
 
 
 
 
 
-
 #block_7_a .form_bottom{
-
-    background-color: rgba(71, 60, 137, 1);
-    border: 0px;
+    border: 3px solid #ddd;
+    background: #473c89;
     color: #ffffff;
-    width: 60%;
+    width: 40%;
     transition: all 0.5s;
 }
 
@@ -808,9 +891,10 @@ header h4 {
 
 #block_7_a .form_bottom:hover{
     background-color: #ffffff;
-    border: 1px solid #aa00ff;
-    color: #aa00ff;
-    }
+    border: 3px solid #ddd;
+    color: #473c89;
+    width: 40%;
+}
 
 
 

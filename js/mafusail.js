@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-    $("#banner").css({"height":$(window).height() + "px"});
+    $("#block_1_a").css({"height":$(window).height() + "px"});
 
     var flag = false;
     var scroll;
@@ -23,9 +23,9 @@ $(document).ready(function(){
         }else{
             if(flag){
                 $("#logo").css({
-                    "margin-top": "50%",
-                    "width": "250px",
-                    "height":"250px"
+                    "margin-top": "250px",
+                    "width": "450px",
+                    "height":"450px"
                 });
 
                 $("header").css({
@@ -34,6 +34,10 @@ $(document).ready(function(){
                 flag = false;
             }
         }
+
+
+
+
 
     });
 
@@ -108,15 +112,7 @@ $(document).ready(function(){
         $("#hover_a").hide();
     });
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
 
     /*validate form*/
 
@@ -155,13 +151,38 @@ $(document).ready(function(){
             phone: {
                 required: "Поле 'Номер телефон' обязательно <br> для заполнения!",
                 digits: "Это поле содержит только цифры <br> Пример:  0631234567",
-                minlength: "Пароль должен быть не менее <br> 10 символов",
-                maxlength: "Пароль должен быть не менее <br> 10 символов",
+                minlength: "Номер телефона должен быть не менее <br> 10 символов",
+                maxlength: "Номер телефона должен быть не менее <br> 10 символов",
             },
 
         }
 
     });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
