@@ -118,6 +118,7 @@ img#logo{
 
 .block_3_m{
     background: #473c89;
+    padding-bottom: 150px;
 }
 
 /*max skills*/
@@ -141,8 +142,10 @@ img#logo{
 
 header h4 {
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
+    padding: 20px 0 30px 0;
     color: #ffffff;
+    margin: -2% 0 0% 0;
 }
 
 .wrap_m {
@@ -276,12 +279,19 @@ header h4 {
 
 .fwrap_a h4{
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 20px 0 30px 0;
     color: #ffffff;
-    margin: 1% 0 2% 0;
+    margin: 7% 0 0% 0;
 }
 
+.line {
+    width: 350px;
+    height: 3px;
+    margin: 0 auto;
+    background: white;
+    margin-bottom: 50px;
+}
 
 
 
@@ -646,9 +656,9 @@ header h4 {
 
 
 /*slader jobs Riss*/
-.blur {
-   filter: gray; /* IE6-9 */
-  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+/*.blur {
+   filter: gray; 
+  -webkit-filter: grayscale(1); 
   -moz-filter: grayscale(100%);
   -ms-filter: grayscale(100%);
   -o-filter: grayscale(100%);
@@ -663,8 +673,17 @@ header h4 {
   -o-filter: none;
   filter: none;
 }
+*/
 
-
+.blur {
+    background: #473c89;
+    padding-top: 100px;
+}
+.fiolet {
+    width: 100%;
+    height: 100px;
+    background: #473c89;
+}
 
 
 
@@ -928,43 +947,6 @@ footer{
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*Riss footer*/
 
 .wrap{
@@ -978,7 +960,7 @@ footer{
 
 .col-1 {
     display: inline-block;
-    width: 50%;
+    width: 40%;
     height: 200px;
     float: left;
     margin-top: 100px;
@@ -989,20 +971,20 @@ footer{
    }
 
     .col-3 {
-   	width: 40%;
-    height: 400px;
+   	width: 50%;
+    height: 500px;
     float: right;
-    margin: 50px 1.6666%;
+    padding: 0 0.6666%;
     color: white;
     /*background: cadetblue;*/ 
    }
 
     iframe {
     	display: inline-block;
-    	width: 48%;
-    	height: 300px;
+    	width: 100%;
+    	height: 490px;
         -webkit-filter: grayscale(100%) contrast(120%);
-        margin-top: 50px;
+        /*margin-top: 50px;*/
     }
 
     .two {
@@ -1018,12 +1000,12 @@ footer{
         display: inline-block;
         width: 150px;
         float: left;
-        margin-top: 85px;
-        margin-left: 50px;
+        margin-top: 72px;
+        margin-left: 5%;
     }
     .right_footer {
         float: left;
-        width: 500px;
+        width: 60%;
         position: relative;
         bottom: -100px;
         left: 30px;
