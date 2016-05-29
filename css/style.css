@@ -737,13 +737,17 @@ header h4 {
 }
 
 .bxslider:hover {
-     filter: brightness(70%);
-    -webkit-filter: brightness(70%);
-    -moz-filter: brightness(70%);
-    -ms-filter: brightness(70%);
-    -o-filter: brightness(70%);
-    -webkit-filter: brightness(0.7);
+     filter: blur(1px);
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -ms-filter: blur(1px);
+    -o-filter: blur(1px);
+    -webkit-filter: blur(1px);
 }
+
+
+
+
 
 
 /*Alex заказ*/
@@ -910,9 +914,9 @@ textarea{
 }
 
 footer{
-    width: 80%;
+    width: 100%;
     position: relative;
-    margin: 100px auto 50px auto;
+    /*margin: 100px auto 50px auto;*/
     height: 30px;
     font-weight: bold;
     color: #6d6e71;
@@ -1047,6 +1051,7 @@ footer{
     .col-1 {
         width: 99%;
         margin-top: -70px;
+        float: none;
     }
     .col-3 {
         width: 99%;
@@ -1054,14 +1059,24 @@ footer{
     }
     .wrap {
         height: 750px;
+        float: none;
     }
     .logo_footer {
         display: none;
     }
     .right_footer {
         text-align: center;
+        width: 100%;
+        position: relative;
+        left: -20px;
+        float: none;
+    }
+
+    .riss{
+        width: 60%;
         margin: 0 auto;
     }
+
 }
 
 @media screen and (max-width: 900px) {
