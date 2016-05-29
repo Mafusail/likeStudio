@@ -34,12 +34,11 @@ $(document).ready(function(){
                 flag = false;
             }
         }
-
-
-
-
-
     });
+
+
+    // выплывающие меню
+    
 
 
 

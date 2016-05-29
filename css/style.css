@@ -76,18 +76,40 @@ img#logo1{
 }
 
 @media screen and (max-width: 690px) {
-    .menu_a {
-        display: none!important;
+    img#logo1{
+        width: 35px;
+        height:35px;
+        margin-top: -35px;
+        cursor: pointer;
     }
 
-    img#logo1{
-        width: 25px;
-        height:25px;
-        margin-top: -10px;
-    }
     header{
         height: 35px;
+        /*background: transparent !important;*/
     }
+    #menu{
+        display: inline;
+        float: left;
+        margin: 35px 0 0 0;
+        width: 120px;
+    }
+    #menu ul{
+        margin: 0px;
+    }
+    #menu ul li{
+        width: 100%;
+        margin: 0;
+        padding: 5px;
+        background: #ee6123;
+        border-bottom: 1px solid #ffffff;
+        transition: background 0.5s;
+    }
+    #menu ul li:hover{
+        color: #ee6123;
+        background: #ffffff;
+        border-bottom: 3px solid #473c89;
+    }
+
 }
 
 
