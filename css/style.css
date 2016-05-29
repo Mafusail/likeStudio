@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family: helvetica, Roboto, "ws-ctrl-convex", sans-serif;
+    font-family: 'Ubuntu Mono', 'Roboto', "ws-ctrl-convex", sans-serif;
 }
 
 html {
@@ -92,21 +92,6 @@ img#logo1{
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*story Riss*/
 
 .story {
@@ -135,8 +120,7 @@ img#logo1{
     min-height: 150px;
     float: right;
     margin: 80px -100%;
-    /*margin-left: -20%;*/
-    /*margin-top: */
+    
 }
 
 .about {
@@ -144,7 +128,10 @@ img#logo1{
     height: 100px;
     float: left;
     text-align: justify;
-    margin: 100px 20px 0 20px;
+    margin: 112px 20px 0 20px;
+    font-family: 'Ubuntu Mono';
+    font-weight: 400; 
+    font-size: 19px;
 }
 
 
@@ -729,24 +716,7 @@ header h4 {
 
 
 /*slader jobs Riss*/
-/*.blur {
-   filter: gray; 
-  -webkit-filter: grayscale(1); 
-  -moz-filter: grayscale(100%);
-  -ms-filter: grayscale(100%);
-  -o-filter: grayscale(100%);
-  filter: grayscale(100%);
-}
 
-.blur:hover {
-    filter: none; 
-  -webkit-filter: none; 
-  -moz-filter: none;
-  -ms-filter: none;
-  -o-filter: none;
-  filter: none;
-}
-*/
 
 .blur {
     background: #473c89;
@@ -758,6 +728,13 @@ header h4 {
     background: #473c89;
 }
 
+.block_6_a h4{
+    text-align: center;
+    font-size: 2rem;
+    padding: 0px 0 30px 0;
+    color: #ffffff;
+    margin: 7% 0 0% 0;
+}
 
 
 
@@ -1033,6 +1010,15 @@ footer{
 
 /*Riss footer*/
 
+.linex {
+    width: 350px;
+    height: 3px;
+    margin: -15px auto;
+    background: white;
+    /*margin-bottom: 50px;*/
+}
+
+
 .wrap{
     background: url(img/footer.jpg);
     display: block;
@@ -1047,15 +1033,29 @@ footer{
     width: 40%;
     height: 200px;
     float: left;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     color: white;
     font-size: 18px;
-    /*background: cadetblue;*/
+    font-family: 'Ubuntu Mono';
+    font-weight: 400; 
+    font-size: 18px;
    }
 
+.col-1 h4 p {
+    display: inline-block;
+    width: 40%;
+    height: 200px;
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    color: white;
+    /*font-family: 'Ubuntu Mono';
+    font-weight: 400; 
+    font-size: 18px;*/
+   }
     .col-3 {
-   	width: 50%;
+    width: 50%;
     height: 500px;
     float: right;
     padding: 0 0.6666%;
@@ -1064,17 +1064,17 @@ footer{
    }
 
     iframe {
-    	display: inline-block;
-    	width: 100%;
-    	height: 490px;
+        display: inline-block;
+        width: 100%;
+        height: 490px;
         -webkit-filter: grayscale(100%) contrast(120%);
         /*margin-top: 50px;*/
     }
 
     .two {
         display: inline-block;
-        width: 45%;
-        margin-top: 120px;
+        width: 72%;
+        margin-top: 115px;
         padding: 15px;
         float: right;
         font-size: 14px;
@@ -1094,6 +1094,12 @@ footer{
         bottom: -100px;
         left: 30px;
         text-align: justify;
+        color: white;
+        font-size: 18px;
+        /*font-family: 'Ubuntu Mono';
+        font-weight: 400; 
+        font-size: 18px;*/
+        
 
     }
 
