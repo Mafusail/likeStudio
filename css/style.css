@@ -38,6 +38,13 @@ nav{
     float: left;
     margin: 10px;
     padding: 2px;
+    transition: all 0.5s;
+}
+
+.menu_a li:hover{
+    color: #ee6123;
+    font-size: 1.1rem;
+    border-bottom: 2px solid #ee6123;
 }
 
 .menu_a a{
@@ -58,10 +65,14 @@ img#logo{
 img#logo1{
     display: none;
     position: fixed;
-    width: 50px;
-    height:50px;
-    margin-top: -5px;
+    height:40px;
+    /*margin-top: -5px;*/
     left: 20px;
+}
+img#logo2{
+    display: none;
+    position: fixed;
+    left: 10px;
 }
 
 
@@ -75,9 +86,13 @@ img#logo1{
     }
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-width: 550px) {
     img#logo1{
-        width: 35px;
+        display: none!important;
+    }
+
+    img#logo2{
+        display: block;
         height:35px;
         margin-top: -35px;
         cursor: pointer;
@@ -90,10 +105,13 @@ img#logo1{
     #menu{
         display: inline;
         float: left;
-        margin: 35px 0 0 0;
+        margin: 35px 0 0 0px;
         width: 120px;
+
     }
     #menu ul{
+        width: 120px;
+        display: none;
         margin: 0px;
     }
     #menu ul li{
@@ -109,7 +127,6 @@ img#logo1{
         background: #ffffff;
         border-bottom: 3px solid #473c89;
     }
-
 }
 
 
@@ -819,7 +836,7 @@ header h4 {
     cursor: pointer;
     font-size: 18px;
     position: fixed;
-    right: -42px;
+    right: -35px;
     top: 30%;
     z-index: 9999;
     padding: 10px 30px;
