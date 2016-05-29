@@ -23,6 +23,8 @@
 <!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
 	<script type="text/javascript" src="engine0/jquery.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/plugins/jquery.fitvids.js"></script>
 <!-- End WOWSlider.com HEAD section -->
 
 <!--Skills-->
@@ -361,10 +363,13 @@
     <script>
         $(document).ready(function(){
             $('.bxslider').bxSlider({
+                slideWidth: 1200,
     // не задаём slideWidth: if no slideWidth is supplied, the slider will expand each slide to 100% width of the container.
-                minSlides: 1,
-                maxSlides: 1,
+                minSlides: 2,
+                maxSlides: 2,
                 slideMargin: 0,
+                responsive: true,
+                // easing: 'easeInOutBounce',
                 loop: true, // зацикливание прокрутки слайдов
                 auto: true, // слайды автоматически начинают прокручиваться
                 autoControls: false, // прячем кнопочки управления прокруткой (неуместны)
