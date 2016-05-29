@@ -737,12 +737,12 @@ header h4 {
 }
 
 .bxslider:hover {
-     filter: blur(1px);
-    -webkit-filter: blur(1px);
-    -moz-filter: blur(1px);
-    -ms-filter: blur(1px);
-    -o-filter: blur(1px);
-    -webkit-filter: blur(1px);
+     filter:contrast(130%);
+    -webkit-filter: contrast(130%);
+    -moz-filter: contrast(130%);
+    -ms-filter: contrast(130%);
+    -o-filter: contrast(130%);
+    -webkit-filter: contrast(1.3);
 }
 
 
