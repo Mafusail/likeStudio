@@ -4,14 +4,23 @@
     font-family: 'Ubuntu Mono', 'Roboto', "ws-ctrl-convex", sans-serif;
 }
 
+
 html {
     font-size:100%;
 }
+
+
+.body {
+    background: #473c89;
+}
+
+
 .block_1_a#vidio_hends{
     width: 100%;
 }
 
-header{
+
+header {
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -20,7 +29,8 @@ header{
     -webkit-transition: background-color .5s;
 }
 
-nav{
+
+nav {
     display: table;
     margin: auto;
     margin-top: 15px;
@@ -28,29 +38,34 @@ nav{
     -webkit-transition: margin-left .5s;
 }
 
-.menu_a{
+
+.menu_a {
     display: block;
     float: left;
     list-style: none;
 }
 
-.menu_a li{
+
+.menu_a li {
     float: left;
     margin: 10px;
     padding: 2px;
     transition: all 0.5s;
 }
 
-.menu_a li:hover{
+
+.menu_a li:hover {
     color: #ee6123;
     font-size: 1.1rem;
     border-bottom: 2px solid #ee6123;
 }
 
+
 .menu_a a{
     color: #F3F3F3;
     text-decoration: none;
 }
+
 
 img#logo{
     float:left;
@@ -62,6 +77,8 @@ img#logo{
     margin-top: 250px;
     -webkit-transition: width .5s, height .5s, margin-right .5s, margin-top .5s;
 }
+
+
 img#logo1{
     display: none;
     position: fixed;
@@ -69,12 +86,13 @@ img#logo1{
     /*margin-top: -5px;*/
     left: 20px;
 }
+
+
 img#logo2{
     display: none;
     position: fixed;
     left: 10px;
 }
-
 
 
 @media screen and (max-width: 1120px) {
@@ -130,28 +148,28 @@ img#logo2{
 }
 
 
-
 /*story Riss*/
 
 .story {
     width: 100%;
     height: 300px;
-    /*background: gray;*/
+    background: white;
 }
+
 
 .znak {
     width: 40%;
     height: 300px;
-    float: left;
-    /*background: tomato;*/
+    float: left;   
 }
+
 
 .znak2 {
     float: left;
     width: 45%;
     height: 100%;
-    /*background: url(img/logo.png);*/
 }
+
 
 .znak2 img {
     width: 150px;
@@ -159,8 +177,8 @@ img#logo2{
     min-height: 150px;
     float: right;
     margin: 80px -100%;
-    
 }
+
 
 .about {
     width: 30%;
@@ -173,8 +191,11 @@ img#logo2{
     font-size: 19px;
 }
 
-
 /*story and Riss*/
+
+
+
+
 
 
 .work{
@@ -189,12 +210,15 @@ img#logo2{
 }
 
 
-
-
 .block_3_m{
     background: #473c89;
     padding-bottom: 150px;
 }
+
+
+
+
+
 
 /*max skills*/
 
@@ -223,6 +247,7 @@ header h4 {
     margin: -2% 0 0% 0;
 }
 
+
 .wrap_m {
     height: 65%;
     max-width: 100%;
@@ -232,6 +257,7 @@ header h4 {
     padding: 1% auto;
     text-align: center;
 }
+
 
 .clearfix {
     clear: both;
@@ -246,9 +272,11 @@ header h4 {
     background: #473c89;
 }
 
+
 .expertise a {
     text-decoration: none;
 }
+
 
 .rubrika {
     width: auto;
@@ -259,12 +287,14 @@ header h4 {
     padding-bottom: 1%;
 }
 
+
 .rubrika img {
     width: 100%;
     max-height: 100%;
     margin: 0;
     display: block;
 }
+
 
 .button {
     font-family: Arial, sans-serif;
@@ -282,12 +312,14 @@ header h4 {
     padding: 2.5%;
 }
 
+
 .button p {
     margin: 0;
     position: relative;
     transition: all ease .5s;
     vertical-align: middle;
 }
+
 
 .shadow {
     position: absolute;
@@ -302,20 +334,24 @@ header h4 {
     padding: .7rem 0;
 }
 
+
 .shadow span {
     opacity:0;
     line-height: 140%;
     transition: all ease 3s;
 }
 
+
 .button:hover .shadow {
     width: 100%;
     opacity: 1;
 }
 
+
 .button:hover p {
     opacity: 0;
 }
+
 
 .button:hover .shadow span {
     opacity: 1;
@@ -338,8 +374,6 @@ header h4 {
 }
 
 
-
-
 .fwrap_a{
     margin: 0 auto;
     width: 80%;
@@ -360,6 +394,7 @@ header h4 {
     margin: 7% 0 0% 0;
 }
 
+
 .line {
     width: 350px;
     height: 3px;
@@ -367,7 +402,6 @@ header h4 {
     background: white;
     margin-bottom: 50px;
 }
-
 
 
 .cards_a{
@@ -378,6 +412,7 @@ header h4 {
     overflow: hidden;
     position: relative;
 }
+
 
 .cards_a::after{
     content: "";
@@ -391,6 +426,8 @@ header h4 {
     transition: all 0.5s;
     overflow: hidden;
 }
+
+
 .cards_a:hover::after{
     background: url("img/Sania22.jpg");
     background-position: center;
@@ -398,6 +435,8 @@ header h4 {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+
 .cards_m{
     width: 33%;
     height: 80%;
@@ -406,6 +445,7 @@ header h4 {
     overflow: hidden;
     position: relative;
 }
+
 
 .cards_m::after{
     content: "";
@@ -419,6 +459,8 @@ header h4 {
     transition: all 0.5s;
     overflow: hidden;
 }
+
+
 .cards_m:hover::after{
     background: url("img/max2.jpg");
     background-position: center;
@@ -426,6 +468,8 @@ header h4 {
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+
 .cards_v{
     width: 33%;
     height: 80%;
@@ -434,6 +478,7 @@ header h4 {
     overflow: hidden;
     position: relative;
 }
+
 
 .cards_v::after{
     content: "";
@@ -447,6 +492,8 @@ header h4 {
     transition: all 0.5s;
     overflow: hidden;
 }
+
+
 .cards_v:hover::after{
     background: url("img/Riss2.jpg");
     background-position: center;
@@ -476,6 +523,8 @@ header h4 {
     color: #473c89;
     background: #ffffff;
 }
+
+
 .cards_a:hover span{
     display: block;
 }
@@ -485,16 +534,10 @@ header h4 {
     display: block;
 }
 
+
 .cards_v:hover span{
     display: block;
 }
-
-
-
-
-
-
-
 
 
 .clearfix{
@@ -521,6 +564,7 @@ header h4 {
     z-index: 9999;
 }
 
+
 #block_inf_a .cirle{
     background: url("img/Sania22.jpg");
     background-position: center;
@@ -535,6 +579,7 @@ header h4 {
     border-radius: 50%; /*Скругление*/
     position: relative;
 }
+
 
 #block_inf_a .cirle img{
     position: relative;
@@ -557,8 +602,8 @@ header h4 {
     left: -1px;
     z-index: 1;
     transition: 0.5s width, 0.5s height, 0.5s top, 0.5s left;
-
 }
+
 
 #block_inf_a .cirle:hover::after{
     width: 0;
@@ -576,9 +621,11 @@ header h4 {
     padding: 10px 0;
 }
 
+
 #block_inf_a .text_a p{
     margin: 15px;
 }
+
 
 #block_inf_a .text_a h3{
     margin: 40px 0;
@@ -602,6 +649,7 @@ header h4 {
     z-index: 9999;
 }
 
+
 #block_inf_m .cirle{
     background: url("img/max2.jpg");
     background-position: center;
@@ -616,6 +664,7 @@ header h4 {
     border-radius: 50%; /*Скругление*/
     position: relative;
 }
+
 
 #block_inf_m .cirle img{
     position: relative;
@@ -641,6 +690,7 @@ header h4 {
 
 }
 
+
 #block_inf_m .cirle:hover::after{
     width: 0;
     height: 0;
@@ -657,9 +707,11 @@ header h4 {
     padding: 10px 0;
 }
 
+
 #block_inf_m .text_a p{
     margin: 15px;
 }
+
 
 #block_inf_m .text_a h3{
     margin: 40px 0;
@@ -683,6 +735,7 @@ header h4 {
     z-index: 9999;
 }
 
+
 #block_inf_v .cirle{
     background: url("img/Riss2.jpg");
     background-position: center;
@@ -697,6 +750,7 @@ header h4 {
     border-radius: 50%; /*Скругление*/
     position: relative;
 }
+
 
 #block_inf_v .cirle img{
     position: relative;
@@ -719,8 +773,8 @@ header h4 {
     left: -1px;
     z-index: 1;
     transition: 0.5s width, 0.5s height, 0.5s top, 0.5s left;
-
 }
+
 
 #block_inf_v .cirle:hover::after{
     width: 0;
@@ -738,9 +792,11 @@ header h4 {
     padding: 10px 0;
 }
 
+
 #block_inf_v .text_a p{
     margin: 15px;
 }
+
 
 #block_inf_v .text_a h3{
     margin: 40px 0;
@@ -752,20 +808,20 @@ header h4 {
 
 
 
-
-
 /*slader jobs Riss*/
-
 
 .blur {
     background: #473c89;
     padding-top: 50px;
 }
+
+
 .fiolet {
     width: 100%;
-    height: 100px;
+    height: 70px;
     background: #473c89;
 }
+
 
 .block_6_a h4{
     text-align: center;
@@ -774,6 +830,7 @@ header h4 {
     color: #ffffff;
     margin: 7% 0 0% 0;
 }
+
 
 .bxslider:hover {
      filter:contrast(130%);
@@ -787,11 +844,7 @@ header h4 {
 
 
 
-
-
 /*Alex заказ*/
-
-
 
 #block_7_a{
     display: none;
@@ -807,6 +860,7 @@ header h4 {
     border: 3px solid #ddd;
     text-align: center;
 }
+
 
 #hover_a{
     display: none;
@@ -828,9 +882,8 @@ header h4 {
 
 
 
+
 /*Кнопка заказа главная*/
-
-
 
 #button_a{
     cursor: pointer;
@@ -852,7 +905,6 @@ header h4 {
 }
 
 
-
 #button_a:hover{
     -moz-transform: rotate(0deg); /* Для Firefox */
     -ms-transform: rotate(0deg); /* Для IE */
@@ -865,9 +917,10 @@ header h4 {
     border: 1px solid #473c89;
 }
 
+
+
+
 /*Формы для заказа*/
-
-
 
 #block_7_a input{
     text-align: center;
@@ -900,9 +953,6 @@ textarea{
 }
 
 
-
-
-
 #block_7_a .form_bottom{
     border: 3px solid #ddd;
     background: #473c89;
@@ -910,7 +960,6 @@ textarea{
     width: 40%;
     transition: all 0.5s;
 }
-
 
 
 #block_7_a .form_bottom:hover{
@@ -921,8 +970,6 @@ textarea{
 }
 
 
-
-
 #block_7_a .koment{
     width: 90%;
     height: 80px;
@@ -931,13 +978,10 @@ textarea{
     padding-top: 5px;
 }
 
+
 #block_7_a .koment:hover{
     width: 90%;
-
 }
-
-
-
 
 
 #block_7_a label.error{
@@ -949,8 +993,8 @@ textarea{
     color: #ffffff;
     width: 40%;
     padding: 5px;
-
 }
+
 
 footer{
     width: 100%;
@@ -959,8 +1003,8 @@ footer{
     height: 30px;
     font-weight: bold;
     color: #6d6e71;
-
 }
+
 
 
 /*Riss footer*/
@@ -970,7 +1014,6 @@ footer{
     height: 3px;
     margin: -15px auto;
     background: white;
-    
 }
 
 
@@ -982,6 +1025,7 @@ footer{
     clear: both;
     float: left;
 }
+
 
 .col-1 {
     display: inline-block;
@@ -995,7 +1039,8 @@ footer{
     font-family: 'Ubuntu Mono';
     font-weight: 400; 
     font-size: 18px;
-   }
+}
+
 
 .col-1 h4 p {
     display: inline-block;
@@ -1004,55 +1049,57 @@ footer{
     float: left;
     margin-top: 50px;
     margin-left: 50px;
-    color: white;
-    
-   }
-    .col-3 {
+    color: white;   
+}
+
+
+.col-3 {
     width: 50%;
     height: 500px;
     float: right;
     padding: 0 0.6666%;
     color: white;
-    
-   }
+}
 
-    iframe {
-        display: inline-block;
-        width: 100%;
-        height: 490px;
-        -webkit-filter: grayscale(100%) contrast(120%);
-        
-    }
 
-    .two {
-        display: inline-block;
-        width: 72%;
-        margin-top: 115px;
-        padding: 15px;
-        float: right;
-        font-size: 14px;
-    }
+iframe {
+    display: inline-block;
+    width: 100%;
+    height: 490px;
+    -webkit-filter: grayscale(100%) contrast(120%);
+}
 
-    .logo_footer {
-        display: inline-block;
-        width: 150px;
-        float: left;
-        margin-top: 72px;
-        margin-left: 5%;
-    }
-    .right_footer {
-        float: left;
-        width: 60%;
-        position: relative;
-        bottom: -100px;
-        left: 30px;
-        text-align: justify;
-        color: white;
-        font-size: 18px;
-        
-        
 
-    }
+.two {
+    display: inline-block;
+    width: 72%;
+    margin-top: 115px;
+    padding: 15px;
+    float: right;
+    font-size: 14px;
+}
+
+
+.logo_footer {
+    display: inline-block;
+    width: 150px;
+    float: left;
+    margin-top: 72px;
+    margin-left: 5%;
+}
+
+
+.right_footer {
+    float: left;
+    width: 60%;
+    position: relative;
+    bottom: -100px;
+    left: 30px;
+    text-align: justify;
+    color: white;
+    font-size: 18px;
+}
+
 
 
 /*mediaqueries*/
@@ -1117,6 +1164,9 @@ footer{
     }
 
 }
+
+
+/*MEDIA*/
 
 @media screen and (max-width: 900px) {
 
