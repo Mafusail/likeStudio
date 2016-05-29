@@ -43,6 +43,8 @@
 
             <a href='#box1'><img id='logo' src='img/logo_white_transperens%20(1).png'></a>
             <img id='logo1' src='img/logo_white_transperens%20(1).png'>
+            <img id='logo2' src='img/logo_white_panel.png'>
+
 
             <ul class="menu_a">
                 <a href='#box4'><li>TEEMS</li></a>
@@ -83,7 +85,7 @@
 
 
     <div class="block_3_m">
-        
+
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
 	<div id="wowslider-container0">
 	<div class="ws_images"><ul>
@@ -105,7 +107,7 @@
 		<a href="#" title="Рабочие моменты"><span><img src="data0/tooltips/img_9923.jpg" alt="Рабочие моменты"/>7</span></a>
 	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.com/vi">bootstrap carousel</a> by WOWSlider.com v8.7</div>
 	<div class="ws_shadow"></div>
-	</div>	
+	</div>
 	<script type="text/javascript" src="engine0/wowslider.js"></script>
 	<script type="text/javascript" src="engine0/script.js"></script>
 	<!-- End WOWSlider.com BODY section -->
@@ -217,8 +219,6 @@
 
 
 
-
-
         <div class="fwrap_a">
             <h4>MEET OUR AMAZING TEAM</h4>
             <div class="line"></div>
@@ -309,9 +309,7 @@
          <h4>CONTACTS</h4>
         <div class="linex"></div>
         </div>
-            
-        </div>
-    </section>
+        </section>
     </div>
 
 
@@ -328,13 +326,13 @@
                     <input type="text" name="imya" placeholder="Имя:" value="primer imeni">
                 </p>
                 <p>
-                    <input type="text" name="phone" placeholder="Номер телефон: (код оператора)-(xxx)-(xxxx)" >
+                    <input type="text" name="phone" placeholder="Номер телефон:" >
                 </p>
                 <p>
                     <input type="text" name="email" placeholder="Email:" value="prima@mail.ru">
                 </p>
                 <p>
-                    <textarea cols="40" rows="6" name="message" placeholder="Комментарии:"></textarea>
+                    <textarea cols="40" rows="5" name="message" placeholder="Комментарии:"></textarea>
                 </p>
 
                 <p>
@@ -349,6 +347,13 @@
     <!--Кнопка заказа-->
 
     <button id="button_a"><strong>ORDER</strong></button>
+
+
+    <div id="block_8_a">
+        <img src='img/logo%20(1).png'>
+        <p>спасибо за пользование нашими услугами ;) </p>
+        <p>в ближайшее время мы свяжемся с вами</p>
+    </div>
 
 
 
@@ -439,7 +444,12 @@
 
             if (a=='1') {
                 $('#block_7_a').hide(1000);
-                $('#hover_a').hide();
+                $('#block_8_a').show(1000);
+                $('#hover_a').click(function () {
+                    $('#block_8_a').hide(1000);
+                    $('#hover_a').hide(2000);
+                });
+
             }
         }
     </script>

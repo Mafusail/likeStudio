@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-    $("#block_1_a").css({"height":$(window).height() + "px"});
+    // $("#block_1_a").css({"height":$(window).height() + "px"});
 
     var flag = false;
     var scroll;
@@ -80,10 +80,16 @@ $(document).ready(function(){
     $('#button_a').click(function () {
         $("#block_7_a").show(500);
         $("#hover_a").show();
+        $("#button_a").css({
+            "right": "-350px",
+        });
     });
     $('#hover_a').click(function () {
         $("#block_7_a").hide();
         $("#hover_a").hide();
+        $("#button_a").css({
+            "right": "-35px",
+        });
     });
 
 

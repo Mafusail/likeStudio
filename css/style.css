@@ -4,10 +4,13 @@
     font-family: 'Ubuntu Mono', 'Roboto', "ws-ctrl-convex", sans-serif;
 }
 
+
+
 html {
     font-size:100%;
+
 }
-.block_1_a#vidio_hends{
+.block_1_a #vidio_hends{
     width: 100%;
 }
 
@@ -343,13 +346,15 @@ header h4 {
 .fwrap_a{
     margin: 0 auto;
     width: 80%;
-    height: 1000px;
+    height: 900px;
     /*background: #343468;*/
     display: block;
     overflow: hidden;
     position: relative;
     text-align: center;
 }
+
+
 
 
 .fwrap_a h4{
@@ -424,6 +429,7 @@ header h4 {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+
     overflow: hidden;
 }
 .cards_v{
@@ -461,7 +467,7 @@ header h4 {
     position: absolute;
     font-size: 30px;
     font-weight: bold;
-    bottom: 10%;
+    bottom: 15%;
     left: 40%;
     color: #ffffff;
     background: transparent;
@@ -470,7 +476,6 @@ header h4 {
     cursor: pointer;
     transition: all 0.5s;
 }
-
 
 .fwrap_a span:hover{
     color: #473c89;
@@ -492,14 +497,29 @@ header h4 {
 
 
 
-
-
-
-
-
 .clearfix{
     clear: both;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -754,6 +774,499 @@ header h4 {
 
 
 
+
+
+/*Адаптивка для команды*/
+
+
+@media screen and (max-width: 2100px) {
+    .fwrap_a{
+        height: 800px;
+    }
+    .fwrap_a span{
+        left: 28%;
+        padding: 10px 70px;
+    }
+
+
+
+/*всплывающий блок*/
+
+    #block_inf_v{
+        width: 70%;
+        padding: 20px;
+        top: 5%;
+        left: 14%;
+    }
+
+    #block_inf_v .cirle{
+        width: 400px;
+        height: 400px;
+    }
+
+    #block_inf_v .cirle::after{
+        width: 402px;
+        height: 402px;
+    }
+
+    #block_inf_v .cirle:hover::after{
+        left: 200px;
+        top: 200px;
+    }
+
+    #block_inf_v .text_a{
+        font-size: 1.5em;
+        padding: 10px 0;
+    }
+
+    #block_inf_v .text_a p{
+        margin: 12px;
+    }
+
+    #block_inf_v .text_a h3{
+        margin: 30px 0;
+    }
+
+
+
+    #block_inf_a{
+        width: 70%;
+        padding: 20px;
+        top: 5%;
+        left: 14%;
+    }
+
+    #block_inf_a .cirle{
+        width: 400px;
+        height: 400px;
+    }
+
+    #block_inf_a .cirle::after{
+        width: 402px;
+        height: 402px;
+    }
+
+    #block_inf_a .cirle:hover::after{
+        left: 200px;
+        top: 200px;
+    }
+
+    #block_inf_a .text_a{
+        font-size: 1.5em;
+        padding: 10px 0;
+    }
+
+    #block_inf_a .text_a p{
+        margin: 12px;
+    }
+
+    #block_inf_a .text_a h3{
+        margin: 30px 0;
+    }
+
+
+
+
+    #block_inf_m{
+        width: 70%;
+        padding: 20px;
+        top: 5%;
+        left: 14%;
+    }
+
+    #block_inf_m .cirle{
+        width: 400px;
+        height: 400px;
+    }
+
+    #block_inf_m .cirle::after{
+        width: 402px;
+        height: 402px;
+    }
+
+    #block_inf_m .cirle:hover::after{
+        left: 200px;
+        top: 200px;
+    }
+
+    #block_inf_m .text_a{
+        font-size: 1.5em;
+        padding: 10px 0;
+    }
+
+    #block_inf_m .text_a p{
+        margin: 12px;
+    }
+
+    #block_inf_m .text_a h3{
+        margin: 30px 0;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width: 1500px) {
+    .fwrap_a{
+        width: 90%;
+        height: 700px;
+    }
+    .fwrap_a span{
+        bottom: 20%;
+        left: 28%;
+        padding: 10px 70px;
+        border: 3px solid #ee6123;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .fwrap_a{
+        height: 500px;
+    }
+    .fwrap_a span{
+        font-size: 20px;
+        bottom: 30%;
+        left: 33%;
+        padding: 5px 40px;
+    }
+
+
+
+    /*всплывающий блок*/
+
+    #block_inf_v{
+        width: 70%;
+        padding: 20px;
+        top: 7%;
+        left: 14%;
+    }
+
+    #block_inf_v .cirle{
+        width: 250px;
+        height: 250px;
+    }
+
+    #block_inf_v .cirle::after{
+        width: 252px;
+        height: 252px;
+    }
+
+    #block_inf_v .cirle:hover::after{
+        left: 125px;
+        top: 125px;
+    }
+
+    #block_inf_v .text_a{
+        font-size: 1.4em;
+        padding: 5px 0;
+    }
+
+    #block_inf_v .text_a p{
+        margin: 5px;
+    }
+
+    #block_inf_v .text_a h3{
+        margin: 20px 0;
+    }
+
+
+    #block_inf_a{
+        width: 70%;
+        padding: 20px;
+        top: 7%;
+        left: 14%;
+    }
+
+    #block_inf_a .cirle{
+        width: 250px;
+        height: 250px;
+    }
+
+    #block_inf_a .cirle::after{
+        width: 252px;
+        height: 252px;
+    }
+
+    #block_inf_a .cirle:hover::after{
+        left: 125px;
+        top: 125px;
+    }
+
+    #block_inf_a .text_a{
+        font-size: 1.4em;
+        padding: 5px 0;
+    }
+
+    #block_inf_a .text_a p{
+        margin: 5px;
+    }
+
+    #block_inf_a .text_a h3{
+        margin: 20px 0;
+    }
+
+
+
+    #block_inf_m{
+        width: 70%;
+        padding: 20px;
+        top: 7%;
+        left: 14%;
+    }
+
+    #block_inf_m .cirle{
+        width: 250px;
+        height: 250px;
+    }
+
+    #block_inf_m .cirle::after{
+        width: 252px;
+        height: 252px;
+    }
+
+    #block_inf_m .cirle:hover::after{
+        left: 125px;
+        top: 125px;
+    }
+
+    #block_inf_m .text_a{
+        font-size: 1.4em;
+        padding: 5px 0;
+    }
+
+    #block_inf_m .text_a p{
+        margin: 5px;
+    }
+
+    #block_inf_m .text_a h3{
+        margin: 20px 0;
+    }
+}
+
+
+
+
+
+
+@media screen and (max-width: 900px) {
+    .fwrap_a{
+        height: 400px;
+    }
+    .fwrap_a span{
+        font-size: 12px;
+        bottom: 35%;
+        left: 35%;
+        padding: 2px 30px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .fwrap_a{
+        width: 70%;
+        height: 1450px;
+    }
+    .cards_a{
+        width: 100%;
+        height: 30%;
+    }
+    .cards_m{
+        width: 100%;
+        height: 30%;
+    }
+    .cards_v{
+        width: 100%;
+        height: 28%;
+    }
+    .fwrap_a span{
+        font-size: 30px;
+        bottom: 10%;
+        left: 32%;
+        padding: 5px 50px;
+        border: 5px solid #ee6123;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .fwrap_a{
+        width: 92%;
+        height: 1100px;
+    }
+    .cards_a{
+        width: 100%;
+        height: 27%;
+    }
+    .cards_m{
+        width: 100%;
+        height: 27%;
+    }
+    .cards_v{
+        width: 100%;
+        height: 32%;
+    }
+
+
+    /*всплывающий блок*/
+
+    #block_inf_v{
+        width: 75%;
+        padding: 20px;
+        top: 2%;
+        left: 6%;
+    }
+
+    #block_inf_v .cirle{
+        width: 150px;
+        height: 150px;
+    }
+
+    #block_inf_v .cirle::after{
+        width: 152px;
+        height: 152px;
+    }
+
+    #block_inf_v .cirle:hover::after{
+        left: 75px;
+        top: 75px;
+    }
+
+    #block_inf_v .text_a{
+        font-size: 1em;
+        padding: 2px 0;
+    }
+
+    #block_inf_v .text_a p{
+        margin: 2px;
+    }
+
+    #block_inf_v .text_a h3{
+        margin: 10px 0;
+    }
+
+
+
+
+
+
+    #block_inf_a{
+        width: 75%;
+        padding: 20px;
+        top: 2%;
+        left: 6%;
+    }
+
+    #block_inf_a .cirle{
+        width: 150px;
+        height: 150px;
+    }
+
+    #block_inf_a .cirle::after{
+        width: 152px;
+        height: 152px;
+    }
+
+    #block_inf_a .cirle:hover::after{
+        left: 75px;
+        top: 75px;
+    }
+
+    #block_inf_a .text_a{
+        font-size: 1em;
+        padding: 2px 0;
+    }
+
+    #block_inf_a .text_a p{
+        margin: 2px;
+    }
+
+    #block_inf_a .text_a h3{
+        margin: 10px 0;
+    }
+
+
+
+
+    #block_inf_m{
+        width: 75%;
+        padding: 20px;
+        top: 2%;
+        left: 6%;
+    }
+
+    #block_inf_m .cirle{
+        width: 150px;
+        height: 150px;
+    }
+
+    #block_inf_m .cirle::after{
+        width: 152px;
+        height: 152px;
+    }
+
+    #block_inf_m .cirle:hover::after{
+        left: 75px;
+        top: 75px;
+    }
+
+    #block_inf_m .text_a{
+        font-size: 1em;
+        padding: 2px 0;
+    }
+
+    #block_inf_m .text_a p{
+        margin: 2px;
+    }
+
+    #block_inf_m .text_a h3{
+        margin: 10px 0;
+    }
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .fwrap_a{
+        width: 92%;
+        height: 1100px;
+    }
+    .cards_a{
+        width: 100%;
+        height: 27%;
+    }
+    .cards_m{
+        width: 100%;
+        height: 27%;
+    }
+    .cards_v{
+        width: 100%;
+        height: 32%;
+    }
+    .fwrap_a span{
+        font-size: 30px;
+        bottom: 8%;
+        left: 26%;
+        padding: 5px 40px;
+        border: 3px solid #ee6123;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /*slader jobs Riss*/
 
 
@@ -803,7 +1316,7 @@ header h4 {
     top: 0%;
     left: 50%;
     margin-left: -25%;
-    margin-top: 10%;
+    margin-top: 3%;
     border: 3px solid #ddd;
     text-align: center;
 }
@@ -883,7 +1396,6 @@ header h4 {
 #block_7_a input:hover{
     background-color: rgba(71, 60, 137, 0.1);
     font-size: 22px;
-    width: 55%;
     border: 3px solid #ddd;
 }
 
@@ -917,7 +1429,6 @@ textarea{
     background-color: #ffffff;
     border: 3px solid #ddd;
     color: #473c89;
-    width: 40%;
 }
 
 
@@ -938,6 +1449,55 @@ textarea{
 
 
 
+@media screen and (max-width: 1700px) {
+    #block_7_a {
+        width: 80%;
+        height: 550px;
+        top: 0%;
+        left: 10%;
+        margin-left: 0%;
+        margin-top: 10%;
+    }
+    #block_7_a img{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #block_7_a {
+        height: 550px;
+    }
+    #block_7_a input{
+        font-size: 16px;
+        height: 30px;
+        width: 70%;
+        margin: 0 0 15px 0;
+    }
+    textarea{
+        font-size: 16px;
+        width: 70%;
+        margin: 0 0 15px 0;
+    }
+}
+@media screen and (max-width: 810px) {
+    #block_7_a {
+        height: 450px;
+    }
+    #block_7_a input{
+        font-size: 16px;
+        height: 25px;
+        width: 90%;
+        margin: 0 0 15px 0;
+    }
+    textarea{
+        font-size: 16px;
+        width: 90%;
+        margin: 0 0 15px 0;
+    }
+    #block_7_a .form_bottom{
+        width: 60%;
+    }
+}
 
 
 #block_7_a label.error{
@@ -951,6 +1511,126 @@ textarea{
     padding: 5px;
 
 }
+
+
+
+
+#block_8_a{
+    display: none;
+    width: 50%;
+    height: 550px;
+    background: #ffffff;
+    font-size: 1.5em;
+    position: fixed;
+    z-index: 9999;
+    top: 15%;
+    left: 50%;
+    margin-left: -25%;
+    margin-top: 3%;
+    border: 3px solid #ddd;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#block_8_a p{
+    padding: 10px;
+}
+
+
+
+@media screen and (max-width: 2200px) {
+    #block_8_a{
+        width: 50%;
+        height: 450px;
+        font-size: 1.3em;
+        top: 10%;
+        left: 50%;
+        margin-left: -25%;
+        margin-top: 3%;
+    }
+
+    #block_8_a p{
+        padding: 10px;
+    }
+}
+
+
+@media screen and (max-width: 1500px) {
+    #block_8_a{
+        width: 60%;
+        height: 350px;
+        font-size: 1.3em;
+        top: 10%;
+        left: 40%;
+        margin-left: -20%;
+        margin-top: 3%;
+    }
+
+    #block_8_a p{
+        padding: 8px;
+    }
+    #block_8_a img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    #block_8_a{
+        width: 60%;
+        height: 290px;
+        font-size: 0.9em;
+        top: 20%;
+        left: 40%;
+        margin-left: -20%;
+        margin-top: 3%;
+    }
+
+    #block_8_a p{
+        padding: 8px;
+    }
+    #block_8_a img{
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #block_8_a{
+        width: 60%;
+        height: 200px;
+        font-size: 0.7em;
+        top: 10%;
+        left: 40%;
+        margin-left: -20%;
+        margin-top: 3%;
+    }
+
+    #block_8_a p{
+        padding: 8px;
+    }
+    #block_8_a img{
+        width: 120px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     width: 100%;
