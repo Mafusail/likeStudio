@@ -1243,6 +1243,9 @@ iframe {
 .znak2 img {
     margin: 80px -120%;
     }
+    .col-3 {
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 350px) {
