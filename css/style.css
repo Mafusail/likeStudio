@@ -1195,12 +1195,12 @@ iframe {
     }
 
     .znak {
-        width: 10%;
+        width: 13%;
         float: none;
         margin: -50px auto;
         height: 100px;
     }
-    .znak2 {
+    .znak2 img {
         width: 100%;
         margin: 0px auto;
     }
@@ -1237,6 +1237,9 @@ iframe {
         max-width: 90%;
         margin: 5% auto;
     }
+    .znak {
+        width: 17%;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -1247,7 +1250,10 @@ iframe {
         height: 250px;
     }
     .iframe {
-        height: 250px;
+        height: 200px;
+    }
+    .znak {
+        width: 22%;
     }
 }
 
@@ -1264,7 +1270,14 @@ iframe {
     .znak2 img {
     margin: 80px -190%;
     }
+    .znak {
+        width: 29%;
+    }
+    .story {
+        height: 350px;
+    }
 }
+
 
 
 
