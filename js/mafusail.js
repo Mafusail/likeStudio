@@ -175,26 +175,28 @@ $(document).ready(function(){
     });
 
 
+// пасхалка
 
+    $('.znak2').click(function () {
 
+        $('.znak2').click(function () {
 
+            $('.znak2').click(function () {
 
+                $('.znak2').click(function () {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                    $('.znak2').click(function () {
+                        $("#pashalka video").show(500);
+                        $("#pashalka_vibor").show(500);
+                    });
+                });
+            });
+        });
+    });
+    $('#pashalka_vibor').click(function () {
+        $("#pashalka video").hide(500);
+        $("#pashalka_vibor").hide(500);
+    });
 
 
 
