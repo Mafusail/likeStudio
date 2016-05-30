@@ -1244,7 +1244,10 @@ iframe {
     margin: 80px -120%;
     }
     .col-3 {
-        height: 200px;
+        height: 250px;
+    }
+    .iframe {
+        height: 250px;
     }
 }
 
