@@ -1960,23 +1960,74 @@ iframe {
     display: none;
 }
 
+
+#pashalka_tabletki{
+    position: relative;
+}
+
 #pashalka_vibor{
     position: fixed;
-    width: 30%;
-    top: 15%;
-    left: 35%;
+    width: 60%;
+    top: 5%;
+    left: 20%;
     z-index: 999999;
     display: none;
 }
 
+#pashalka_tabletki_red{
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999;
+    display: none;
+}
+
+#pashalka_tabletki_blue{
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999;
+    display: none;
+}
+
+
+#pashalka_end{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+#pashalka_end img{
+    width: 220%;
+    display: none;
+}
+
+
+@media screen and (max-width: 1600px) {
+    #pashalka_end img{
+        width: 150%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #pashalka_end img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #pashalka_end img{
+        width: 70%;
+    }
+}
 
 
 
-
-
-
-
-
-
-
-
+@media screen and (max-width: 800px) {
+    #pashalka_end img{
+        width: 70%;
+    }
+}
