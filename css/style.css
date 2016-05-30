@@ -99,6 +99,65 @@ img#logo2{
 }
 
 
+
+
+
+
+
+
+
+/*Выбор языка сайта*/
+
+
+#languadge_block{
+    background: #ee6123;
+    position: fixed;
+    height:40px;
+    right: 30px;
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 1270px) {
+    #languadge_block {
+        top: 20px;
+        height:30px;
+        right: 10px;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    #languadge_block .lag{
+        font-size: 10px!important;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    #languadge_block {
+        top: 7px;
+        height:20px;
+        right: 40px;
+        color: #ffffff;
+        font-size: 14px;
+        padding: 0 10px;
+    }
+    #languadge_block .lag{
+        font-size: 10px!important;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 1120px) {
     #logo {
         display: none!important;
@@ -108,7 +167,7 @@ img#logo2{
     }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 650px) {
     img#logo1{
         display: none!important;
     }
