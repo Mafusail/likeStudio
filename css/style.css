@@ -331,13 +331,12 @@ header h4 {
     overflow: hidden;
     transition: all ease 1s;
     opacity: 0;
-    padding: .7rem 0;
+    padding: .5rem 0;
 }
 
 
 .shadow span {
     opacity:0;
-    line-height: 140%;
     transition: all ease 3s;
 }
 
