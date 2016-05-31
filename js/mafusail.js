@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-    $("#block_1_a").css({"height":$(window).height() + "px"});
+    // $("#block_1_a").css({"height":$(window).height() + "px"});
 
     var flag = false;
     var scroll;
@@ -80,10 +80,16 @@ $(document).ready(function(){
     $('#button_a').click(function () {
         $("#block_7_a").show(500);
         $("#hover_a").show();
+        $("#button_a").css({
+            "right": "-350px",
+        });
     });
     $('#hover_a').click(function () {
         $("#block_7_a").hide();
         $("#hover_a").hide();
+        $("#button_a").css({
+            "right": "-35px",
+        });
     });
 
 
@@ -169,26 +175,63 @@ $(document).ready(function(){
     });
 
 
+// пасхалка
 
+    $('.znak2').click(function () {
 
+        $('.znak2').click(function () {
 
+            $('.znak2').click(function () {
 
+                $('.znak2').click(function () {
 
+                    $('.znak2').click(function () {
+                        $("#pashalka video").show(500);
+                        $("#pashalka_vibor").show(500);
+                        $("#pashalka_tabletki_blue").show(500);
+                        $("#pashalka_tabletki_red").show(500);
+                    });
+                });
+            });
+        });
+    });
+    $('#pashalka_tabletki_blue').click(function () {
+        $("#pashalka video").hide(500);
+        $("#pashalka_vibor").hide(500);
+        $("#pashalka_tabletki_red").hide(500);
+        $("#pashalka_tabletki_blue").hide(500);
+    });
 
+    $('#pashalka_tabletki_red').click(function () {
+        $("#pashalka video").hide(500);
+        $("#pashalka_vibor").hide(500);
+        $("#pashalka_tabletki_red").hide(500);
+        $("#pashalka_tabletki_blue").hide(500);
+        $("header").hide(500);
+        $(".block_1_a").hide(1500);
+        $(".block_2_v").hide(2500);
+        $(".block_3_m").hide(3500);
+        $(".block_4_m").hide(4500);
+        $(".block_5_a").hide(5500);
+        $(".block_6_a").hide(6500);
+        $("#button_a").hide(7500);
+        $(".block_8_v").hide(8500);
+        $("#pashalka_end img").show(8500);
+    });
 
+    $('#pashalka_end img').click(function () {
+        $("#pashalka_end img").hide(1000);
+        $("header").show(500);
+        $(".block_1_a").show(1500);
+        $(".block_2_v").show(2500);
+        $(".block_3_m").show(3500);
+        $(".block_4_m").show(4500);
+        $(".block_5_a").show(5500);
+        $(".block_6_a").show(6500);
+        $("#button_a").show(7500);
+        $(".block_8_v").show(8500);
 
-
-
-
-
-
-
-
-
-
-
-
-
+    });
 
 
 
