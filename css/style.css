@@ -23,24 +23,19 @@ html {
 
 #go-top {
     /*position: fixed;*/
-    /*bottom: 30px;*/
-    /*right: 20px;*/
+    /*bottom: 25px;*/
+    /*right: 10px;*/
     /*cursor:pointer;*/
     /*display:none;*/
-    /*width: 4rem;*/
-    /*height: 1.5rem;*/
-    /*text-align: center;*/
-    /*background: #D4B30A;*/
-    /*color: darkmagenta;*/
-    /*border-radius: 15%;*/
-    /*transition: all linear 1s;*/
-    /*z-index: 9999;*/
+    /*width: 50px;*/
+    /*height: 20px;*/
+    /*background: #c0c0c0;*/
     cursor: pointer;
     display: none;
     font-size: 18px;
     position: fixed;
-    right: -35px;
-    bottom: 25%;
+    left: -35px;
+    top: 30%;
     z-index: 9999;
     padding: 10px 30px;
     background-color: #ee6123;
@@ -62,7 +57,7 @@ html {
     -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
     -o-transform: rotate(0deg); /* Для Opera */
     transform: rotate(0deg);
-    right: 0;
+    left: 0;
     background-color: #ffffff;
     color: #473c89;
     border: 1px solid #473c89;
