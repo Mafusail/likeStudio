@@ -9,6 +9,9 @@ html {
 
 }
 
+
+
+
 .block_1_a #vidio_hends {
 
 }
@@ -17,6 +20,53 @@ html {
     background: #473c89;
 }
 
+
+#go-top {
+    /*position: fixed;*/
+    /*bottom: 30px;*/
+    /*right: 20px;*/
+    /*cursor:pointer;*/
+    /*display:none;*/
+    /*width: 4rem;*/
+    /*height: 1.5rem;*/
+    /*text-align: center;*/
+    /*background: #D4B30A;*/
+    /*color: darkmagenta;*/
+    /*border-radius: 15%;*/
+    /*transition: all linear 1s;*/
+    /*z-index: 9999;*/
+    cursor: pointer;
+    display: none;
+    font-size: 18px;
+    position: fixed;
+    right: -35px;
+    bottom: 25%;
+    z-index: 9999;
+    padding: 10px 30px;
+    background-color: #ee6123;
+    border: 0;
+    color: #ffffff;
+    -moz-transform: rotate(-90deg); /* Для Firefox */
+    -ms-transform: rotate(-90deg); /* Для IE */
+    -webkit-transform: rotate(-90deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(-90deg); /* Для Opera */
+    transform: rotate(-90deg);
+    transition: all 1s;
+}
+
+#go-top:hover {
+    /*background: #333;*/
+    /*color: #D4B30A;*/
+    -moz-transform: rotate(0deg); /* Для Firefox */
+    -ms-transform: rotate(0deg); /* Для IE */
+    -webkit-transform: rotate(0deg); /* Для Safari, Chrome, iOS */
+    -o-transform: rotate(0deg); /* Для Opera */
+    transform: rotate(0deg);
+    right: 0;
+    background-color: #ffffff;
+    color: #473c89;
+    border: 1px solid #473c89;
+}
 
 .block_1_a#vidio_hends{
 >>>>>>> origin/master
@@ -97,10 +147,6 @@ img#logo2{
     position: fixed;
     left: 10px;
 }
-
-
-
-
 
 
 
@@ -394,13 +440,12 @@ header h4 {
     overflow: hidden;
     transition: all ease 1s;
     opacity: 0;
-    padding: .7rem 0;
+    padding: .5rem 0;
 }
 
 
 .shadow span {
     opacity:0;
-    line-height: 140%;
     transition: all ease 3s;
 }
 
@@ -647,7 +692,6 @@ header h4 {
     overflow: hidden;
     position: fixed;
     top: 15%;
-    left: 20%;
     left: 20%;
     display: none;
     background: #ffffff;
@@ -1421,7 +1465,7 @@ header h4 {
      filter:contrast(130%);
     -webkit-filter: contrast(130%);
     -moz-filter: contrast(130%);
-    -ms-filter: contrast(130%);
+    /*-ms-filter: contrast(130%);*/
     -o-filter: contrast(130%);
     -webkit-filter: contrast(1.3);
 }
