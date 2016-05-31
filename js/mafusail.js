@@ -1,8 +1,5 @@
 $(document).ready(function(){
 
-
-    // $("#block_1_a").css({"height":$(window).height() + "px"});
-
     var flag = false;
     var scroll;
 
@@ -17,7 +14,10 @@ $(document).ready(function(){
                     "height":"50px"
                 });
 
-                $("header").css({"background-color": "#473c89"});
+                $("header").css({
+                    "background-color": "#473c89",
+                    "border-bottom": "1px solid #ffffff"
+                });
                 flag = true;
             }
         }else{
@@ -29,7 +29,8 @@ $(document).ready(function(){
                 });
 
                 $("header").css({
-                    "background-color": "transparent"
+                    "background-color": "transparent",
+                    "border-bottom": "1px solid transparent"
                 });
                 flag = false;
             }

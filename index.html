@@ -20,9 +20,10 @@
 
 
     <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico.png" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animate.css">
 
 	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
 	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
@@ -39,17 +40,17 @@
 
     <header>
         <nav id="menu">
-            <ul class="menu_a">
+            <ul class="menu_a wow bounceInLeft" data-wow-duration="1s" data-wow-delay="2s">
                 <a href='#box1'><li>HOME</li></a>
                 <a href='#box2'><li>ABOUT</li></a>
                 <a href='#box3'><li>EXPERTIZE</li></a>
             </ul>
 
-            <a href='#box1'><img id='logo' src='img/logo_white_transperens%20(1).png'></a>
+            <a href='#box1'><img class="wow bounceInDown" data-wow-duration="1s" data-wow-delay="1s" id='logo' src='img/logo_white_transperens%20(1).png'></a>
             <img id='logo1' src='img/logo_white_transperens%20(1).png'>
             <img id='logo2' src='img/logo_white_panel.png'>
 
-            <ul class="menu_a">
+            <ul class="menu_a wow bounceInRight" data-wow-duration="1s" data-wow-delay="2s">
                 <a href='#box4'><li>TEEMS</li></a>
                 <a href='#box5'><li>WORKS</li></a>
                 <a href='#box7'><li>CONTACT</li></a>
@@ -58,7 +59,7 @@
 
             <!--Выбор языка сайта-->
 
-            <select id="languadge_block">
+            <select id="languadge_block" class="wow pulse" data-wow-duration="1s" data-wow-delay="5s" data-wow-iteration="5">
                     <option class="lag" selected="selected">ENGLISH</option>
                     <option class="lag">DEUTSCH</option>
                     <option class="lag">УКРАЇНСЬКА</option>
@@ -79,8 +80,7 @@
     </div>
 
     <div id="pashalka_end">
-        <img src="img/pashalka_tnd.jpg" alt="pash">
-
+        <img src="img/Alexandr.png" alt="pash">
     </div>
 
 
@@ -100,14 +100,14 @@
 
 
 
-    <div class="block_2_v" id="box2">
+    <div class="block_2_v"  id="box2">
         <section class="story">
-                <div class="znak">
+                <div class="znak wow fadeIn" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="100">
                     <div class="znak2">
                         <img src="img/logo3.png" alt="Logo">
                     </div>
                 </div>
-                <div class="about">
+                <div class="about wow bounceInRight" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="100">
                     Like studio - Это молодая комманда креативных людей, которых обьединяет любовь к созданию сайтов. Мы всегда услышим ваши пожелания и предложим вам самый оптимальный вариант решения вашего проекта
                 </div>
         </section>
@@ -118,7 +118,7 @@
     <div class="block_3_m">
 
 	<!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	<div id="wowslider-container0">
+	<div id="wowslider-container0" >
 	<div class="ws_images"><ul>
 		<li><img src="data0/images/img_0060.jpg" alt="Командная работа" title="Командная работа" id="wows0_0"/></li>
 		<li><img src="data0/images/img_0077.jpg" alt="Делаем на совесть!" title="Делаем на совесть!" id="wows0_1"/></li>
@@ -146,13 +146,13 @@
 
     <div class="block_4_m" id="box3">
         <!--<header>-->
-            <h4>OUR SKILLS AND EXPERTISE</h4>
+            <h4 class="wow flipInX" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="100">OUR SKILLS AND EXPERTISE</h4>
             <div class="line"></div>
         <!--</header>-->
         <div class="wrap_m">
             <div class="expertise">
                 <a href="http://w3.org.ua/articles/html5-1" target="_blank">
-                    <div id="rubrHtml" class="rubrika">
+                    <div id="rubrHtml" class="rubrika wow zoomInUp" data-wow-duration="4s" data-wow-delay="0.5s" data-wow-offset="200"  src="img/logo_white_transperens (1).png"">
                         <img class="htmlcss" src="img/1html_300x300.jpg" alt="HTML5">
                         <div class="button">
                             <p>HTML5</p>
@@ -163,7 +163,7 @@
                     </div>
                 </a>
                 <a href="http://www.w3schools.com/html/html_responsive.asp" target="_blank">
-                    <div id="rubrResponse" class="rubrika">
+                    <div id="rubrResponse" class="rubrika wow zoomInUp" data-wow-duration="3.5s" data-wow-delay="1s" data-wow-offset="200">
                         <img class="responsive" src="img/6responsive_300x300.jpg" alt="Responsive web-design">
                         <div class="button">
                             <p>Адаптивность</p>
@@ -174,7 +174,7 @@
                     </div>
                 </a>
                 <a href="http://w3.org.ua/articles/git" target="_blank">
-                    <div id="rubrGit" class="rubrika">
+                    <div id="rubrGit" class="rubrika wow zoomInUp" data-wow-duration="3s" data-wow-delay="1.5s" data-wow-offset="200">
                         <img class="git" src="img/3git_300x300.jpg" alt="Git">
                         <div class="button">
                             <p>Git</p>
@@ -185,7 +185,7 @@
                     </div>
                 </a>
                 <a href="http://w3.org.ua/articles/ruby" target="_blank">
-                    <div id="rubrRuby" class="rubrika">
+                    <div id="rubrRuby" class="rubrika wow zoomInUp" data-wow-duration="2.5s" data-wow-delay="2s" data-wow-offset="200">
                         <img class="ruby" src="img/4comp-rub_300x300.jpg" alt="Git">
                         <div class="button">
                             <p>Compass</p>
@@ -196,7 +196,7 @@
                     </div>
                 </a>
                 <a href="http://w3.org.ua/lesson/sass" target="_blank">
-                    <div id="rubrHamlSass" class="rubrika">
+                    <div id="rubrHamlSass" class="rubrika wow zoomInUp" data-wow-duration="2s" data-wow-delay="2.5s" data-wow-offset="200">
                         <img class="hamlsass" src="img/5-hamlsass.jpg" alt="Preprocessors">
                         <div class="button">
                             <p>Препроцессоры</p>
@@ -207,7 +207,7 @@
                     </div>
                 </a>
                 <a href="http://w3.org.ua/jquery/attach-event" target="_blank">
-                    <div id="rubrJquery" class="rubrika">
+                    <div id="rubrJquery" class="rubrika wow zoomInUp" data-wow-duration="1.5s" data-wow-delay="3s" data-wow-offset="200">
                         <img class="jquery" src="img/2jqueryajax_300x300.jpg" alt="JQUERY">
                         <div class="button">
                             <p>JQUERY</p>
@@ -218,7 +218,7 @@
                     </div>
                 </a>
                 <a href="http://getbootstrap.com/" target="_blank">
-                    <div id="rubrFrameworks" class="rubrika">
+                    <div id="rubrFrameworks" class="rubrika wow zoomInUp" data-wow-duration="1s" data-wow-delay="3.5s" data-wow-offset="200">
                         <img class="frameworks" src="img/7bootstrap-mater_300x300.jpg" alt="Bootstrap">
                         <div class="button">
                             <p>Фреймворки</p>
@@ -229,7 +229,7 @@
                     </div>
                 </a>
                 <a href="http://getbootstrap.com/" target="_blank">
-                    <div id="rubrDenwer" class="rubrika">
+                    <div id="rubrDenwer" class="rubrika wow zoomInUp" data-wow-duration="0.5s" data-wow-delay="4s" data-wow-offset="200">
                         <img class="wordpress" src="img/8wp-denwer-2.jpg" alt="Bootstrap">
                         <div class="button">
                             <p>CMS/Локальный сервер</p>
@@ -251,11 +251,11 @@
 
 
         <div class="fwrap_a">
-            <h4>MEET OUR AMAZING TEAM</h4>
+            <h4 class="wow flipInX" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="100">MEET OUR AMAZING TEAM</h4>
             <div class="line"></div>
-            <div class="cards_a"><span id="inf_a">ALEX</span></div>
-            <div class="cards_m"><span id="inf_m">MAX</span></div>
-            <div class="cards_v"><span id="inf_v">RISS</span></div>
+            <div class="cards_a wow slideInLeft" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="200"><span id="inf_a">ALEX</span></div>
+            <div class="cards_m wow rotateIn" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="200"><span id="inf_m">MAX</span></div>
+            <div class="cards_v wow slideInRight" data-wow-duration="1s" data-wow-delay="0.5s" data-wow-offset="200"><span id="inf_v">RISS</span></div>
             <div class="clearfix"></div>
         </div>
 
@@ -315,7 +315,7 @@
     <div class="block_6_a" id="box5">
         <section class="blur">
             <div class="fiolet">
-            <h4>OUR WORK</h4>
+            <h4 class="wow flipInX" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="100">OUR WORK</h4>
             <div class="linex"></div>
             </div>
             <ul class="bxslider">
@@ -328,7 +328,7 @@
             <li class="slide"><a href="http://diz.promo.net.ua/psyculture/"><img src="img/slide4.jpg"></a></li>
         </ul>
        <div class="fiolet">
-         <h4>CONTACTS</h4>
+         <h4 class="wow flipInX" data-wow-duration="1s" data-wow-delay="1s" data-wow-offset="100">CONTACTS</h4>
         <div class="linex"></div>
         </div>
         </section>
@@ -368,7 +368,7 @@
 
     <!--Кнопка заказа-->
 
-    <button id="button_a"><strong>ORDER</strong></button>
+    <button class="wow flash" data-wow-duration="0.5s" data-wow-delay="25s" data-wow-iteration="8" id="button_a"><strong>ORDER</strong></button>
 
 
     <div id="block_8_a">
@@ -383,8 +383,8 @@
     <div class="block_8_v" id="box7">
         <div class="wrap">
                 <div class="col-1">
-                    <img class="logo_footer" src="img/logo_white_transperens (1).png" alt="logo footer">
-                    <div class="right_footer"> <div class="riss"> <div class=""> Если вы хороший и порядочный закзачик и у вас есть идея - звоните в Like studio мы поможем вам реализовать ваш проект таким, как вы его хотите видеть.</div> 
+                    <img class="logo_footer wow fadeInLeft" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="100"  src="img/logo_white_transperens (1).png" alt="logo footer">
+                    <div class="right_footer wow zoomIn" data-wow-duration="2s" data-wow-delay="1s" data-wow-offset="100"  src="img/logo_white_transperens (1).png""> <div class="riss"> <div class=""> Если вы хороший и порядочный закзачик и у вас есть идея - звоните в Like studio мы поможем вам реализовать ваш проект таким, как вы его хотите видеть.</div>
                     <br>
                     <h4> Мы находимся по адресу:</h4>
                         <p> г. Киев, ул. Красноармейская 13, офис 778</p>
@@ -420,7 +420,10 @@
     <script src="js/mafusail.js"></script>
     <script src="js/max.js"></script>
     <script src="js/riss.js"></script>
-
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 <!-- !!!slider -->
     <script src="js/jquery.bxslider.js"></script>
     <!-- slider bx finish -->

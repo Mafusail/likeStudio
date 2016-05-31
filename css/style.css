@@ -64,7 +64,6 @@ html {
 }
 
 .block_1_a#vidio_hends{
->>>>>>> origin/master
     width: 100%;
 }
 
@@ -74,8 +73,9 @@ header {
     z-index: 100;
     width: 100%;
     height: 70px;
+    border-bottom: 1px solid transparent;
     background-color: transparent;
-    -webkit-transition: background-color .5s;
+    -webkit-transition: all .5s ;
 }
 
 
@@ -151,7 +151,7 @@ img#logo2{
 
 
 #languadge_block{
-    background: #ee6123;
+    background: #473c89;
     position: fixed;
     height:40px;
     right: 30px;
@@ -160,14 +160,14 @@ img#logo2{
     padding: 0 20px;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1300px) {
     #languadge_block {
         top: 20px;
         height:30px;
-        right: 10px;
+        right: 8px;
         color: #ffffff;
         font-size: 14px;
-        padding: 0 10px;
+        padding: 0 8px;
     }
     #languadge_block .lag{
         font-size: 10px!important;
@@ -2248,16 +2248,13 @@ iframe {
 }
 
 #pashalka_end img{
-    width: 220%;
+    width: 100%;
     display: none;
 }
 
 
-@media screen and (max-width: 1600px) {
-    #pashalka_end img{
-        width: 150%;
-    }
-}
+
+
 @media screen and (max-width: 1100px) {
     #pashalka_end img{
         width: 100%;
