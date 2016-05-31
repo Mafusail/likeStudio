@@ -1909,6 +1909,11 @@ iframe {
     }
 }
 
+/*@media screen and (min-width: 1499px) {
+    .znak2 img {
+        margin: 95px -100%;
+    }
+}*/
 
 @media screen and (max-width: 1200px) {
     .about {
@@ -1963,14 +1968,14 @@ iframe {
 
 @media screen and (max-width: 900px) {
 
-    .block_4_m h4, .fwrap_a h4 {
+    header h4, .fwrap_a h4 {
         font-size: 2.7rem;
     }
 }
 
 @media screen and (max-width: 800px) {
 
-    .block_4_m h4, .fwrap_a h4 {
+    header h4, .fwrap_a h4 {
         font-size: 2.5rem;
     }
     .about {
@@ -1984,17 +1989,42 @@ iframe {
 
 @media screen and (max-width: 680px) {
 
-    .block_4_m h4, .fwrap_a h4 {
+    header h4, .fwrap_a h4 {
         font-size: 2.3rem;
+    }
+    .znak {
+        width: 13%;
+        float: none;
+        margin: -50px auto;
+        height: 100px;
+    }
+    .znak2 img {
+        width: 100%;
+        margin: 80px -75px;
+    }
+    .about {
+        float: none;
+        width: 70%;
+        margin: 100px auto;
+        padding-top: 50px;
+        text-align: center;
+    }
+    .story {
+        height: 350px;
+       padding-bottom: 50px;
     }
 }
 
 @media screen and (max-width: 630px) {
+    .black-cover {
+        padding: 15%;
+        box-sizing: border-box;
+    }
     .rubrika {
         max-width: 70%;
-        margin: 5% auto;
+        margin: 4% auto;
     }
-    h4, .fwrap_a h4 {
+    header h4, .fwrap_a h4 {
         font-size: 1.7rem;
         line-height: 2rem;
     }
@@ -2003,17 +2033,33 @@ iframe {
 @media screen and (max-width: 500px) {
     .rubrika {
         max-width: 90%;
-        margin: 6% auto;
+        margin: 5% auto;
+    }
+    .znak {
+        width: 17%;
+    }
+    iframe {
+        height: 250px;
+        padding-top: 70px;
+    }
+    .wrap {
+        height: 600px;
+    }
+    .col-3 {
+        height: 350px;
+        padding-top: 50px;
     }
 }
 
 @media screen and (max-width: 430px) {
-.znak2 img {
-    margin: 80px -120%;
+.col-3 {
+        height: 250px;
     }
-    .rubrika {
-        max-width: 100%;
-        margin: 8% auto;
+    .iframe {
+        height: 200px;
+    }
+    .znak {
+        width: 22%;
     }
 }
 
@@ -2024,11 +2070,109 @@ iframe {
         padding-left: 20px;
     }
     .znak2 img {
-    margin: 80px -190%;
+    margin: 80px -270%;
     }
-    .rubrika {
-        max-width: 100%;
-        margin: 10% auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#pashalka{
+    position: relative;
+
+}
+
+
+
+#pashalka video{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99998;
+    display: none;
+}
+
+
+#pashalka_tabletki{
+    position: relative;
+}
+
+#pashalka_vibor{
+    position: fixed;
+    width: 60%;
+    top: 5%;
+    left: 20%;
+    z-index: 999999;
+    display: none;
+}
+
+#pashalka_tabletki_red{
+    right: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999;
+    display: none;
+}
+
+#pashalka_tabletki_blue{
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    z-index: 9999999;
+    display: none;
+}
+
+
+#pashalka_end{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+}
+
+#pashalka_end img{
+    width: 220%;
+    display: none;
+}
+
+
+@media screen and (max-width: 1600px) {
+    #pashalka_end img{
+        width: 150%;
+    }
+}
+@media screen and (max-width: 1100px) {
+    #pashalka_end img{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #pashalka_end img{
+        width: 70%;
+    }
+}
+
+
+
+@media screen and (max-width: 800px) {
+    #pashalka_end img{
+        width: 70%;
     }
 }
 
