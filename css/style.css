@@ -2207,6 +2207,7 @@ iframe {
 }
 
 
+
 #pashalka_tabletki{
     position: relative;
 }
@@ -2251,6 +2252,30 @@ iframe {
     width: 100%;
     display: none;
 }
+
+
+/*Матрица*/
+
+
+
+/*adding a black bg to the body to make things clearer*/
+#osnovnoi_a {background: black;}
+canvas {display: none;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

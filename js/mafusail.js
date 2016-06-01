@@ -187,7 +187,19 @@ $(document).ready(function(){
                 $('.znak2').click(function () {
 
                     $('.znak2').click(function () {
-                        $("#pashalka video").show(500);
+
+
+                        // матрица
+                        $("#osnovnoi_a").hide();
+                        $("#c").show();
+
+
+
+
+
+
+
+                        // $("#pashalka video").show(500);
                         $("#pashalka_vibor").show(500);
                         $("#pashalka_tabletki_blue").show(500);
                         $("#pashalka_tabletki_red").show(500);
@@ -197,13 +209,32 @@ $(document).ready(function(){
         });
     });
     $('#pashalka_tabletki_blue').click(function () {
-        $("#pashalka video").hide(500);
+
+
+        // матрица
+        $("#osnovnoi_a").show();
+        $("#c").hide();
+
+
+        // $("#pashalka video").hide(500);
         $("#pashalka_vibor").hide(500);
         $("#pashalka_tabletki_red").hide(500);
         $("#pashalka_tabletki_blue").hide(500);
     });
 
     $('#pashalka_tabletki_red').click(function () {
+
+
+
+        // матрица
+        $("#osnovnoi_a").hide(500);
+        $("#osnovnoi_a").show();
+        $("#c").hide();
+
+
+
+
+
         $("#pashalka video").hide(500);
         $("#pashalka_vibor").hide(500);
         $("#pashalka_tabletki_red").hide(500);
@@ -218,9 +249,15 @@ $(document).ready(function(){
         $("#button_a").hide(7500);
         $(".block_8_v").hide(8500);
         $("#pashalka_end img").show(8500);
+        $("#c").show(9000);
     });
 
     $('#pashalka_end img').click(function () {
+
+
+        $("#c").hide();
+
+
         $("#pashalka_end img").hide(1000);
         $("header").show(500);
         $(".block_1_a").show(1500);
@@ -235,6 +272,56 @@ $(document).ready(function(){
     });
 
 
+    var c = document.getElementById("c");
+    var ctx = c.getContext("2d");
+
+//making the canvas full screen
+    c.height = window.innerHeight;
+    c.width = window.innerWidth;
+
+//chinese characters - taken from the unicode charset
+    var chinese = "田由甲申甴电甶男甸甹町画甼甽甾甿畀畁畂畃畄畅畆畇畈畉畊畋界畍畎畏畐畑";
+//converting the string into an array of single characters
+    chinese = chinese.split("");
+
+    var font_size = 10;
+    var columns = c.width/font_size; //number of columns for the rain
+//an array of drops - one per column
+    var drops = [];
+//x below is the x coordinate
+//1 = y co-ordinate of the drop(same for every drop initially)
+    for(var x = 0; x < columns; x++)
+        drops[x] = 1;
+
+//drawing the characters
+    function draw()
+    {
+        //Black BG for the canvas
+        //translucent BG to show trail
+        ctx.fillStyle = "rgba(0, 0, 0, 0.05)";
+        ctx.fillRect(0, 0, c.width, c.height);
+
+        ctx.fillStyle = "#0F0"; //green text
+        ctx.font = font_size + "px arial";
+        //looping over drops
+        for(var i = 0; i < drops.length; i++)
+        {
+            //a random chinese character to print
+            var text = chinese[Math.floor(Math.random()*chinese.length)];
+            //x = i*font_size, y = value of drops[i]*font_size
+            ctx.fillText(text, i*font_size, drops[i]*font_size);
+
+            //sending the drop back to the top randomly after it has crossed the screen
+            //adding a randomness to the reset to make the drops scattered on the Y axis
+            if(drops[i]*font_size > c.height && Math.random() > 0.975)
+                drops[i] = 0;
+
+            //incrementing Y coordinate
+            drops[i]++;
+        }
+    }
+
+    setInterval(draw, 33);
 
 
 
