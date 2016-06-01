@@ -35,7 +35,7 @@ html {
     font-size: 18px;
     position: fixed;
     left: -35px;
-    top: 30%;
+    top: 50%;
     z-index: 9999;
     padding: 10px 30px;
     background-color: #ee6123;
@@ -1514,7 +1514,7 @@ img#logo2{
     font-size: 18px;
     position: fixed;
     right: -35px;
-    top: 30%;
+    top: 50%;
     z-index: 9999;
     padding: 10px 30px;
     background-color: #ee6123;
