@@ -1,7 +1,7 @@
 <?php
 $to = "shapovalenko.a.a@gmail.com" . ", ";
-//$to .= "r_g_b@i.ua" . ", ";
-//$to .= "maxsusmail@gmail.com";
+$to .= "r_g_b@i.ua" . ", ";
+$to .= "maxsusmail@gmail.com";
 $tema = "Новый заказ в компанию Like Studio";
 $message = "Имя пользователя: " .$_GET['imya']. "<br>";
 $message .= "Номер телефон: " .$_GET['phone']. "<br>";
