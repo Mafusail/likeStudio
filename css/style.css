@@ -1084,18 +1084,7 @@ img#logo2{
         padding: 10px 70px;
         border: 3px solid #ee6123;
     }
-}
 
-@media screen and (max-width: 1200px) {
-    .fwrap_a{
-        height: 500px;
-    }
-    .fwrap_a span{
-        font-size: 20px;
-        bottom: 30%;
-        left: 33%;
-        padding: 5px 40px;
-    }
 
 
 
@@ -1104,23 +1093,23 @@ img#logo2{
     #block_inf_v{
         width: 70%;
         padding: 20px;
-        top: 7%;
+        top: 3%;
         left: 14%;
     }
 
     #block_inf_v .cirle{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 
     #block_inf_v .cirle::after{
-        width: 252px;
-        height: 252px;
+        width: 152px;
+        height: 152px;
     }
 
     #block_inf_v .cirle:hover::after{
-        left: 125px;
-        top: 125px;
+        left: 75px;
+        top: 75px;
     }
 
     #block_inf_v .text_a{
@@ -1140,23 +1129,23 @@ img#logo2{
     #block_inf_a{
         width: 70%;
         padding: 20px;
-        top: 7%;
+        top: 3%;
         left: 14%;
     }
 
     #block_inf_a .cirle{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 
     #block_inf_a .cirle::after{
-        width: 252px;
-        height: 252px;
+        width: 152px;
+        height: 152px;
     }
 
     #block_inf_a .cirle:hover::after{
-        left: 125px;
-        top: 125px;
+        left: 75px;
+        top: 75px;
     }
 
     #block_inf_a .text_a{
@@ -1177,23 +1166,23 @@ img#logo2{
     #block_inf_m{
         width: 70%;
         padding: 20px;
-        top: 7%;
+        top: 3%;
         left: 14%;
     }
 
     #block_inf_m .cirle{
-        width: 250px;
-        height: 250px;
+        width: 150px;
+        height: 150px;
     }
 
     #block_inf_m .cirle::after{
-        width: 252px;
-        height: 252px;
+        width: 152px;
+        height: 152px;
     }
 
     #block_inf_m .cirle:hover::after{
-        left: 125px;
-        top: 125px;
+        left: 75px;
+        top: 75px;
     }
 
     #block_inf_m .text_a{
@@ -1208,6 +1197,31 @@ img#logo2{
     #block_inf_m .text_a h3{
         margin: 20px 0;
     }
+
+
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 1200px) {
+    .fwrap_a{
+        height: 500px;
+    }
+    .fwrap_a span{
+        font-size: 20px;
+        bottom: 30%;
+        left: 33%;
+        padding: 5px 40px;
+    }
+
+
+
+
 }
 
 
@@ -1606,6 +1620,17 @@ textarea{
     width: 90%;
 }
 
+#block_7_a label.error{
+    position: absolute;
+    bottom: 10%;
+    right: 25%;
+    z-index: 99999;
+    background: #373737;
+    color: #ffffff;
+    width: 50%;
+    padding: 5px 0;
+}
+
 
 
 @media screen and (max-width: 1700px) {
@@ -1615,10 +1640,15 @@ textarea{
         top: 0%;
         left: 10%;
         margin-left: 0%;
-        margin-top: 10%;
+        margin-top: 3%;
     }
     #block_7_a img{
         width: 150px;
+    }
+    #block_7_a label.error{
+        bottom: 2.5%;
+        right: 25%;
+        width: 50%;
     }
 }
 
@@ -1636,6 +1666,11 @@ textarea{
         font-size: 16px;
         width: 70%;
         margin: 0 0 15px 0;
+    }
+    #block_7_a label.error{
+        bottom: 16%;
+        right: 15%;
+        width: 70%;
     }
 }
 @media screen and (max-width: 810px) {
@@ -1656,19 +1691,15 @@ textarea{
     #block_7_a .form_bottom{
         width: 60%;
     }
+    #block_7_a label.error{
+        bottom: 2%;
+        right: 5%;
+        width: 90%;
+    }
 }
 
 
-#block_7_a label.error{
-    position: absolute;
-    bottom: 3%;
-    right: 30%;
-    z-index: 99999;
-    background: #373737;
-    color: #ffffff;
-    width: 40%;
-    padding: 5px;
-}
+
 
 
 
