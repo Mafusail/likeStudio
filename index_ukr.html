@@ -59,11 +59,11 @@
 
             <!--Выбор языка сайта-->
 
-            <select id="languadge_block" class="wow pulse" data-wow-duration="1s" data-wow-delay="5s" data-wow-iteration="5" onchange="location = this.value;">
-                    <option class="lag" value="index_en.html">ENGLISH</option>
-                    <option class="lag" value="index_de.html">GERMAN</option>
-                    <option class="lag" value="index_ukr.html">UKRAINIAN</option>
-                    <option class="lag" selected="selected" value="index.html">RUSSIAN</option>
+            <select id="languadge_block" class="wow pulse" data-wow-duration="1s" data-wow-delay="5s" data-wow-iteration="5" oninput="location = this.value;">
+                <option class="lag" value="index_en.html">ENGLISH</option>
+                <option class="lag" value="index_de.html">GERMAN</option>
+                <option class="lag" value="index_ukr.html" selected="selected">UKRAINIAN</option>
+                <option class="lag" value="index.html">RUSSIAN</option>
             </select>
         </nav>
     </header>
@@ -343,17 +343,17 @@
     <!--Заказ на сайт-->
 
     <div id="block_7_a">
-        <img src='img/logo%20(1).png' alt="img">
+        <img src='img/logo%20(1).png'>
         <div class="form_contact">
             <form id="loginform"   >
                 <p>
-                    <input type="text" name="imya" placeholder="Ім'я:" value="primer imeni">
+                    <input type="text" name="imya" placeholder="Им'я:">
                 </p>
                 <p>
                     <input type="text" name="phone" placeholder="Номер телефону:" >
                 </p>
                 <p>
-                    <input type="text" name="email" placeholder="Email:" value="prima@mail.ru">
+                    <input type="text" name="email" placeholder="Email:">
                 </p>
                 <p>
                     <textarea cols="40" rows="5" name="message" placeholder="Коментарі:"></textarea>
@@ -418,7 +418,8 @@
 </footer>
 
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>    <script type="text/javascript" src="js/validation/jquery.validate.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/validation/jquery.validate.min.js"></script>
     <script src="js/mafusail.js"></script>
     <script src="js/max.js"></script>
     <script src="js/riss.js"></script>
