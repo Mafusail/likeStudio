@@ -9,7 +9,21 @@ html {
 
 }
 
+#img_hand{
+ width: 100%;
+ display: none;
+}
 
+
+
+@media screen and (max-width: 500px) {
+ .block_1_a #vidio_hends {
+ display: none;
+ }
+ #img_hand{
+ display: block;
+ }
+}
 
 
 .block_1_a #vidio_hends {
