@@ -36,22 +36,14 @@ html {
 
 
 #go-top {
-    /*position: fixed;*/
-    /*bottom: 25px;*/
-    /*right: 10px;*/
-    /*cursor:pointer;*/
-    /*display:none;*/
-    /*width: 50px;*/
-    /*height: 20px;*/
-    /*background: #c0c0c0;*/
     cursor: pointer;
     display: none;
     font-size: 18px;
     position: fixed;
-    left: -35px;
+    left: -40px;
     top: 50%;
     z-index: 9999;
-    padding: 10px 30px;
+    padding: 10px 20px;
     background-color: #ee6123;
     border: 0;
     color: #ffffff;
@@ -2087,6 +2079,7 @@ iframe {
     iframe {
         height: 250px;
         padding-top: 70px;
+        border: none;
     }
     .wrap {
         height: 600px;
