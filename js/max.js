@@ -77,8 +77,11 @@ $(document).ready(function(){
         $(this).attr('src', 'img/8wp-denwer-2.jpg');
     });
 
-
-
-
+    //$(window).resize(function () {
+    //    //if ($(window).width() > 550){
+    //        $('html').width=screen.width;
+    //    //}
+    //});
 });
+
 

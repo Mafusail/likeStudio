@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7993aa6f-6d98-402c-a019-525b7c985c1e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/max.js" afterPath="$PROJECT_DIR$/js/max.js" />
     </list>
     <ignored path="likeStudio.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,14 +32,14 @@
     <favorites_list name="likeStudio" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.4398074">
+    <splitter split-orientation="horizontal" split-proportion="0.4932271">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.7053942">
-                  <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.5778098">
+                  <caret line="294" column="37" selection-start-line="294" selection-start-column="37" selection-end-line="294" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -51,17 +52,27 @@
           <file leaf-file-name="mafusail.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/js/mafusail.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-8.275862">
-                  <caret line="69" column="41" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="41" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="50" column="7" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="7" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="max.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/js/max.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.811749">
+                  <caret line="83" column="9" selection-start-line="79" selection-start-column="6" selection-end-line="83" selection-end-column="9" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/style.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.45533141">
+                <state vertical-scroll-proportion="0.0">
                   <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
                   <folding />
                 </state>
@@ -83,12 +94,13 @@
       <list>
         <option value="$PROJECT_DIR$/js/plugins/jquery.easing.1.3.js" />
         <option value="$PROJECT_DIR$/php/mail.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index_de.html" />
         <option value="$PROJECT_DIR$/index_en.html" />
         <option value="$PROJECT_DIR$/index_ukr.html" />
         <option value="$PROJECT_DIR$/js/mafusail.js" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/js/max.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -132,8 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -182,6 +192,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -313,7 +325,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464943200315</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Button #go_top aligned to the left, white line in &quot;contacts&quot; (border from iframe) removed">
+      <created>1466147018298</created>
+      <option name="number" value="00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1466147018298</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -366,7 +384,8 @@
     <MESSAGE value="bxSlider in ukr, de, en repaired&#10;Top-button in ukr, de repaired" />
     <MESSAGE value="block 1_a violette image added by en, ukr, de" />
     <MESSAGE value="SideMenu slideToggle on, hiding on.click" />
-    <option name="LAST_COMMIT_MESSAGE" value="SideMenu slideToggle on, hiding on.click" />
+    <MESSAGE value="Button #go_top aligned to the left, white line in &quot;contacts&quot; (border from iframe) removed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Button #go_top aligned to the left, white line in &quot;contacts&quot; (border from iframe) removed" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -698,13 +717,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/max.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.022696929">
-          <caret line="1" column="15" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/img/logo2.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -731,26 +743,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/mafusail.js">
+    <entry file="file://$PROJECT_DIR$/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862">
-          <caret line="69" column="41" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/mafusail.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.45533141">
-          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="7" selection-start-line="46" selection-start-column="4" selection-end-line="50" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/max.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.811749">
+          <caret line="83" column="9" selection-start-line="79" selection-start-column="6" selection-end-line="83" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7053942">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5778098">
+          <caret line="294" column="37" selection-start-line="294" selection-start-column="37" selection-end-line="294" selection-end-column="37" />
           <folding />
         </state>
       </provider>
