@@ -1,0 +1,13 @@
+{
+    "name": "maxcomposer/likestudio",
+    "description": "first trying to work with composer on local OpenServer",
+    "require": {
+        "php": "^5.3"
+    },
+    "authors": [
+        {
+            "name": "Max Suslov",
+            "email": "maxsusmail@gmail.com"
+        }
+    ]
+}
